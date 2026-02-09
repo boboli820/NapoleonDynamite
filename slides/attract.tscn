@@ -57,6 +57,6 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="logo" type="Sprite2D" parent="MPFCarousel" unique_id=1778148701]
-position = Vector2(645, 516.25)
-scale = Vector2(0.5710456, 0.5839977)
+position = Vector2(640.99994, 517.5)
+scale = Vector2(0.52010715, 0.534738)
 texture = ExtResource("5_twbla")
