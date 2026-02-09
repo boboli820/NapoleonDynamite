@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://cvakxaljb7heg"]
+
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+[ext_resource type="FontFile" uid="uid://bbv6hb7eswj4a" path="res://fonts/COOPBL.TTF" id="2_m2s46"]
+
+[node name="Attract" type="Control" unique_id=205008175]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_r1mnt")
+metadata/_custom_type_script = "uid://dru3usokwlhd3"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=277711466]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 1024.0
+color = Color(1, 1, 0.78039217, 1)
+
+[node name="Label" type="Label" parent="ColorRect" unique_id=532692662]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 352.0
+offset_right = 1266.0
+offset_bottom = 690.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.63529414)
+theme_override_fonts/font = ExtResource("2_m2s46")
+theme_override_font_sizes/font_size = 80
+text = "Napoleon Dynamite Pinball"
+horizontal_alignment = 1
+vertical_alignment = 1
