@@ -60,3 +60,11 @@ vertical_alignment = 1
 position = Vector2(640.99994, 517.5)
 scale = Vector2(0.52010715, 0.534738)
 texture = ExtResource("5_twbla")
+
+[node name="last_scores_1p" type="Node2D" parent="MPFCarousel" unique_id=1331197948]
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_1p" unique_id=1286390778]
+offset_right = 40.0
+offset_bottom = 23.0
+script = ExtResource("4_cq3lo")
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
