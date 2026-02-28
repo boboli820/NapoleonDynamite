@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://dau16etdvbw8t"]
+
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_mdrpy"]
+[ext_resource type="FontFile" uid="uid://bbv6hb7eswj4a" path="res://fonts/COOPBL.TTF" id="2_ndsnu"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_u4kvt"]
+
+[node name="Hurryup" type="Control" unique_id=1261320755]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mdrpy")
+metadata/_custom_type_script = "uid://dru3usokwlhd3"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1255006392]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 1024.0
+color = Color(1, 0.043137256, 0.43529412, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=807844487]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 120
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=502444647]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_ndsnu")
+theme_override_font_sizes/font_size = 180
+text = "Hurry Up!"
+horizontal_alignment = 1
+
+[node name="MPFVariable" type="Label" parent="VBoxContainer" unique_id=1491385120]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_ndsnu")
+theme_override_font_sizes/font_size = 120
+text = "100,000"
+horizontal_alignment = 1
+script = ExtResource("3_u4kvt")
+variable_type = 1
+variable_name = "current_hurryup"
+comma_separate = true
+initialize_empty = false
+update_event = "hurryup_value"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"

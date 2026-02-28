@@ -11,7 +11,10 @@ switches:
   s_flipper_right_upper:
     number: #17
     tags: right_flipper_upper
- 
+  s_start:
+    number: #0
+    tags: start
+
   #Trough Switches
   s_trough_1:
     number: #24
@@ -31,5 +34,26 @@ switches:
   s_plunger_lane:
     number: #31
 
-  
-    
+  #playfield switches
+  s_sling_left:
+    number: #40
+    tags: left_sling
+  s_sling_right:
+    number: #33
+    tags: right_sling
+  s_bumper_lower:
+    number: #41
+    tags: lower_bumper
+  s_bumper_upper:
+    number: #42
+    tags: upper_bumper
+  s_inlane_right_1:
+    number: #35
+    tags: right_inlane_1
+  s_inlane_right_2:
+    number: #36
+    tags: right_inlane_2
+  s_inlane_left:
+    number: #39
+    tags: left_inlane
+

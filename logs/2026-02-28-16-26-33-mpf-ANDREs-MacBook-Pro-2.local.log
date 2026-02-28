@@ -1,0 +1,108 @@
+2026-02-28 16:26:33,281 : INFO : root : Loading config.
+2026-02-28 16:26:33,282 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-28 16:26:33,282 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/00addb5eaaf19e366a8bc2e537dfc5e2.mpf_cache
+2026-02-28 16:26:33,301 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/17249d28c5038822300153ccd16b5450.mpf_cache
+2026-02-28 16:26:33,301 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/786e273e12b38b2b1133a8d0aa2f17ad.mpf_cache
+2026-02-28 16:26:33,301 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/17249d28c5038822300153ccd16b5450.mpf_cache
+2026-02-28 16:26:33,301 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/128730e328aaa296072fe140e2e7dc9c.mpf_cache
+2026-02-28 16:26:33,301 : WARNING : ConfigProcessor : Config file in cache changed: /Users/andre/NapoleonDynamite/modes/bumpers/config/bumpers.yaml
+2026-02-28 16:26:33,302 : INFO : ConfigProcessor : Loading config from file /Users/andre/NapoleonDynamite/modes/bumpers/config/bumpers.yaml.
+2026-02-28 16:26:33,303 : INFO : ConfigProcessor : Loading config: /Users/andre/NapoleonDynamite/modes/bumpers/config/bumpers.yaml
+2026-02-28 16:26:33,303 : INFO : ConfigProcessor : Config file cache created: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/6361db87863b427e5d069bbf0c807c9d.mpf_cache
+2026-02-28 16:26:33,304 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-28 16:26:33,304 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-02-28-16-26-33-mpf-ANDREs-MacBook-Pro-2.local.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/andre/NapoleonDynamite/logs/2026-02-28-16-26-33-mpf-ANDREs-MacBook-Pro-2.local.log'}
+2026-02-28 16:26:33,304 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf
+2026-02-28 16:26:33,304 : INFO : Machine : Machine path: /Users/andre/NapoleonDynamite
+2026-02-28 16:26:33,304 : INFO : Machine : Platform: darwin
+2026-02-28 16:26:33,304 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.13/bin/python3.13
+2026-02-28 16:26:33,304 : INFO : Machine : Python version: 3.13.12 (64-bit)
+2026-02-28 16:26:33,304 : INFO : Machine : Initializing MPF...
+2026-02-28 16:26:33,327 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-02-28 16:26:33,331 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-02-28 16:26:33,331 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-02-28 16:26:33,331 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-02-28 16:26:33,331 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.12', 'prev_value': None, 'change': True}
+2026-02-28 16:26:33,341 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-26.3-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2026-02-28 16:26:33,341 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-02-28 16:26:33,341 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '25.3.0', 'prev_value': None, 'change': True}
+2026-02-28 16:26:33,341 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 25.3.0: Wed Jan 28 20:53:05 PST 2026; root:xnu-12377.81.4~5/RELEASE_ARM64_T6020', 'prev_value': None, 'change': True}
+2026-02-28 16:26:33,341 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2026-02-28 16:26:33,341 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/andre/NapoleonDynamite/logs/2026-02-28-16-26-33-mpf-ANDREs-MacBook-Pro-2.local.log', 'prev_value': None, 'change': True}
+2026-02-28 16:26:33,341 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-02-28 16:26:33,348 : ERROR : ConfigValidator : Your config contains a value for the setting "mode:bumpers:shots:shot_groups:bumpers", but this is not a valid setting name.
+2026-02-28 16:26:33,348 : ERROR : asyncio : Exception in callback EventManager._async_handler_done()() at /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/events.py:124
+handle: <Handle EventManager._async_handler_done()() at /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/events.py:124>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/devices/shot.py", line 79, in validate_and_parse_config
+    config = super().validate_and_parse_config(config, is_mode_config, debug_prefix)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.config_section, config, self.name, "device", prefix=debug_prefix)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+                          'setting "' + path_string + '", but this is not a valid '
+                                                      'setting name.', 2, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "mode:bumpers:shots:shot_groups:bumpers", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/latest/logs)
+2026-02-28 16:26:33,352 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-28 16:26:33,352 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-02-28 16:26:33,352 : INFO : Machine : Shutting down...
+2026-02-28 16:26:33,352 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-02-28 16:26:34,354 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/devices/shot.py", line 79, in validate_and_parse_config
+    config = super().validate_and_parse_config(config, is_mode_config, debug_prefix)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.config_section, config, self.name, "device", prefix=debug_prefix)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/core/config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+                          'setting "' + path_string + '", but this is not a valid '
+                                                      'setting name.', 2, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "mode:bumpers:shots:shot_groups:bumpers", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/latest/logs)
+2026-02-28 16:26:34,356 : INFO : root : MPF run loop ended.
