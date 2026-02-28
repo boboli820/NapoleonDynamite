@@ -1,0 +1,43 @@
+2026-02-28 14:18:48,575 : INFO : root : Loading config.
+2026-02-28 14:18:48,576 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-28 14:18:48,577 : WARNING : ConfigProcessor : Config file in cache changed: /Users/andre/NapoleonDynamite/config/config.yaml
+2026-02-28 14:18:48,577 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/mpfconfig.yaml.
+2026-02-28 14:18:48,600 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf/mpfconfig.yaml
+2026-02-28 14:18:48,601 : INFO : ConfigProcessor : Loading config from file /Users/andre/NapoleonDynamite/config/config.yaml.
+2026-02-28 14:18:48,601 : INFO : ConfigProcessor : Loading config: /Users/andre/NapoleonDynamite/config/config.yaml
+2026-02-28 14:18:48,602 : INFO : ConfigProcessor : Loading config: /Users/andre/NapoleonDynamite/config/config_ball_devices.yaml
+2026-02-28 14:18:48,603 : INFO : ConfigProcessor : Loading config: /Users/andre/NapoleonDynamite/config/config_coils.yaml
+2026-02-28 14:18:48,604 : INFO : ConfigProcessor : Loading config: /Users/andre/NapoleonDynamite/config/config_switches.yaml
+2026-02-28 14:18:48,605 : INFO : ConfigProcessor : Config file cache created: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/00addb5eaaf19e366a8bc2e537dfc5e2.mpf_cache
+2026-02-28 14:18:48,638 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/17249d28c5038822300153ccd16b5450.mpf_cache
+2026-02-28 14:18:48,639 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/786e273e12b38b2b1133a8d0aa2f17ad.mpf_cache
+2026-02-28 14:18:48,639 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/17249d28c5038822300153ccd16b5450.mpf_cache
+2026-02-28 14:18:48,639 : INFO : ConfigProcessor : Loading config from cache: /var/folders/np/pd6clpgx1xs_0sdwz71m1gyh0000gn/T/128730e328aaa296072fe140e2e7dc9c.mpf_cache
+2026-02-28 14:18:48,639 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-28 14:18:48,639 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-02-28-14-18-48-mpf-ANDREs-MacBook-Pro-2.local.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/andre/NapoleonDynamite/logs/2026-02-28-14-18-48-mpf-ANDREs-MacBook-Pro-2.local.log'}
+2026-02-28 14:18:48,639 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/mpf
+2026-02-28 14:18:48,639 : INFO : Machine : Machine path: /Users/andre/NapoleonDynamite
+2026-02-28 14:18:48,639 : INFO : Machine : Platform: darwin
+2026-02-28 14:18:48,639 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.13/bin/python3.13
+2026-02-28 14:18:48,639 : INFO : Machine : Python version: 3.13.12 (64-bit)
+2026-02-28 14:18:48,640 : INFO : Machine : Initializing MPF...
+2026-02-28 14:18:48,766 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-02-28 14:18:48,772 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-02-28 14:18:48,772 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-02-28 14:18:48,772 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-02-28 14:18:48,773 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.12', 'prev_value': None, 'change': True}
+2026-02-28 14:18:48,785 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-26.3-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2026-02-28 14:18:48,785 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-02-28 14:18:48,785 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '25.3.0', 'prev_value': None, 'change': True}
+2026-02-28 14:18:48,785 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 25.3.0: Wed Jan 28 20:53:05 PST 2026; root:xnu-12377.81.4~5/RELEASE_ARM64_T6020', 'prev_value': None, 'change': True}
+2026-02-28 14:18:48,785 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2026-02-28 14:18:48,785 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/andre/NapoleonDynamite/logs/2026-02-28-14-18-48-mpf-ANDREs-MacBook-Pro-2.local.log', 'prev_value': None, 'change': True}
+2026-02-28 14:18:48,785 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-02-28 14:18:48,793 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-02-28 14:18:48,793 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-02-28 14:18:48,794 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-02-28 14:18:58,287 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-28 14:18:58,287 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-02-28 14:18:58,288 : INFO : Machine : Shutting down...
+2026-02-28 14:18:58,288 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-02-28 14:18:59,291 : INFO : root : MPF run loop ended.
