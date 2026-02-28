@@ -1,27 +1,35 @@
 #config_version=6
 
-
 switches:
   # Cabinet Switches
   s_flipper_left:
-    number:
+    number: #8
     tags: left_flipper
-  s_flipper_right:
-    number:
-    tags: right_flipper
-    #Trough Switches
+  s_flipper_right_lower:
+    number: #16
+    tags: right_flipper_lower
+  s_flipper_right_upper:
+    number: #17
+    tags: right_flipper_upper
+ 
+  #Trough Switches
   s_trough_1:
-    number:
-  s_trough_2:
-    number:
+    number: #24
+  s_trough_2: 
+    number: #25
   s_trough_3:
-    number:
+    number: #26
   s_trough_4:
-    number:
+    number: #27
   s_trough_5:
-    number:
+    number: #28
   s_trough_6:
-    number:
+    number: #29
+  s_trough_7:
+    number: #30
+    tags: trough_jam
   s_plunger_lane:
-    number:
+    number: #31
+
+  
     
