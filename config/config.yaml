@@ -17,15 +17,15 @@ fast:
       cab_board: 
         model: FP-I/O-0024
         order: 1
-      playfield_middle_board:
+      3208_middle:
         model: FP-I/O-3208
         order: 2
-      playfield_back_right_board:
+      0804_right:
         model: FP-I/O-0804
         order: 3
-      playfield_back_left_board:
-        model: FP-I/O-0804
-        order: 4
+      #0804_left:
+      #  model: FP-I/O-0804
+      #  order: 4
     port: auto
     baud: 921600
     debug: false
@@ -58,6 +58,23 @@ playfields:
   playfield:
     default_source_device: bd_trough
     tags: default
+
+flippers:
+  left_flipper:
+    main_coil: c_flipper_left_main
+    hold_coil: c_flipper_left_hold
+    activation_switch: s_flipper_left
+    eos_switch: s_flipper_left_eos
+  right_flipper_lower:
+    main_coil: c_flipper_right_lower_main
+    hold_coil: c_flipper_right_lower_hold
+    activation_switch: s_flipper_right_lower
+    eos_switch: s_flipper_right_lower_eos
+  right_flipper_upper:
+    coil: c_flipper_upper_main
+    hold_coil: c_flipper_upper_hold
+    activation_switch: s_flipper_right_upper
+    eos_switch: s_flipper_right_upper_eos
 
 #virtual_platform_start_active_switches:
 #  - s_trough_1

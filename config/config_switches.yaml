@@ -3,57 +3,68 @@
 switches:
   # Cabinet Switches
   s_flipper_left:
-    number: 8
+    number: cab_board-8
+    debounce: quick
     tags: left_flipper
+  s_flipper_left_eos:
+    number: 3208_middle-13
   s_flipper_right_lower:
-    number: 16
+    number: cab_board-16
+    debounce: quick
     tags: right_flipper_lower
+  s_flipper_right_lower_eos:
+    number: 3208_middle-8
   s_flipper_right_upper:
-    number: 17
+    number: cab_board-17
+    debounce: quick
     tags: right_flipper_upper
+  s_flipper_right_upper_eos:
+    number: 3208_middle-20
   s_start:
-    number: 0
+    number: cab_board-0
     tags: start
 
   #Trough Switches
   s_trough_1:
-    number: 24
+    number: 3208_middle-0
   s_trough_2: 
-    number: 25
+    number: 3208_middle-1
   s_trough_3:
-    number: 26
+    number: 3208_middle-2
   s_trough_4:
-    number: 27
+    number: 3208_middle-3
   s_trough_5:
-    number: 28
+    number: 3208_middle-4
   s_trough_6:
-    number: 29
+    number: 3208_middle-5
   s_trough_7:
-    number: 30
+    number: 3208_middle-6
     tags: trough_jam
   s_plunger_lane:
-    number: 31
+    number: 3208_middle-7
 
   #playfield switches
   s_sling_left:
-    number: 40
+    number: 3208_middle-16
     tags: left_sling
   s_sling_right:
-    number: 33
+    number: 3208_middle-9
     tags: right_sling
   s_bumper_lower:
-    number: 41
+    number: 3208_middle-17
     tags: lower_bumper
   s_bumper_upper:
-    number: 42
+    number: 3208_middle-18
     tags: upper_bumper
   s_inlane_right_1:
-    number: 35
+    number: 3208_middle-11
     tags: right_lane_1
   s_inlane_right_2:
-    number: 36
+    number: 3208_middle-12
     tags: right_lane_2
   s_inlane_left:
-    number: 39
+    number: 3208_middle-15
     tags: left_lane
-
+  s_scoop_tina:
+    number: 3208_middle-19
+    tags: tina_scoop

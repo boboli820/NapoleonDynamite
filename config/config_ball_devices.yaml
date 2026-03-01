@@ -6,6 +6,7 @@ ball_devices:
     eject_coil: c_trough_eject
     eject_targets: bd_plunger
     tags: trough, home, drain #home means ok place for balls to be at start of game
+    jam_switch: s_trough_7 #if this switch is active, the trough is considered jammed and won't try to eject balls until it's cleared
 
   bd_plunger:
     ball_switches: s_plunger_lane

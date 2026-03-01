@@ -2,23 +2,34 @@
 
 coils:
   c_trough_eject:
-    number: 1
+    number: 3208_middle-1
   c_flipper_left_hold:
-    number: 2
+    number: 3208_middle-2
+    allow_enable: true #The purpose of the allow_enable: true setting is that as a safety precaution, MPF does not allow you to enable (that is, to hold a coil in its "on" position) unless you specifically add allow_enable: true to that coil's config.
   c_flipper_left_main:
-    number: 3
+    number: 3208_middle-3
   c_flipper_right_lower_hold:
-    number: 4
+    number: 3208_middle-4
+    allow_enable: true
   c_flipper_right_lower_main:
-    number: 5
+    number: 3208_middle-5
   c_sling_left:
-    number: 6
+    number: 3208_middle-6
   c_sling_right:
-    number: 7  
+    number: 3208_middle-7
   c_flipper_upper_main:
-    number: 8
+    number: 0804_right-0
   c_flipper_upper_hold:
-    number: 9
+    number: 0804_right-1
+    allow_enable: true
   c_scoop_tina:
-    number: 10
- 
+    number: 0804_right-2
+
+autofire_coils:
+  left_sling:
+    coil: c_sling_left
+    switch: s_sling_left
+  right_sling:
+    coil: c_sling_right
+    switch: s_sling_right
+  
