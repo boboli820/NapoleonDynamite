@@ -1,0 +1,7 @@
+2026-03-01 18:52:27,883 : INFO : root : Loading config.
+2026-03-01 18:52:27,885 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-01 18:52:27,885 : WARNING : ConfigProcessor : Config file in cache changed: /Users/andre/NapoleonDynamite/config/config.yaml
+2026-03-01 18:52:27,885 : INFO : ConfigProcessor : Loading config from file /Users/andre/mpf/lib/python3.13/site-packages/mpf/mpfconfig.yaml.
+2026-03-01 18:52:27,904 : INFO : ConfigProcessor : Loading config: /Users/andre/mpf/lib/python3.13/site-packages/mpf/mpfconfig.yaml
+2026-03-01 18:52:27,904 : INFO : ConfigProcessor : Loading config from file /Users/andre/NapoleonDynamite/config/config.yaml.
+2026-03-01 18:52:27,907 : INFO : ConfigProcessor : Loading config: /Users/andre/NapoleonDynamite/config/config.yaml
