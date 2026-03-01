@@ -1,0 +1,262 @@
+2026-02-17 13:21:23,311 : INFO : root : Loading config.
+2026-02-17 13:21:23,659 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/config_spec.mpf_cache
+2026-02-17 13:21:23,659 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-17 13:21:23,660 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/954ddabc670342668a09b03520c7eb79.mpf_cache
+2026-02-17 13:21:23,755 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-02-17 13:21:23,756 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/767518d75df2d86a4d35c1fb94c70abd.mpf_cache
+2026-02-17 13:21:23,757 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-02-17 13:21:23,757 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/73548cb541cc3751ae5711fe0817282a.mpf_cache
+2026-02-17 13:21:23,758 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-02-17 13:21:23,758 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-02-17-13-21-23-mpf-ANDREs-Mac-mini.local.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/pinball/NapoleonDynamite/logs/2026-02-17-13-21-23-mpf-ANDREs-Mac-mini.local.log'}
+2026-02-17 13:21:23,758 : INFO : Machine : MPF path: /Users/pinball/mpf/lib/python3.14/site-packages/mpf
+2026-02-17 13:21:23,758 : INFO : Machine : Machine path: /Users/pinball/NapoleonDynamite
+2026-02-17 13:21:23,758 : INFO : Machine : Platform: darwin
+2026-02-17 13:21:23,758 : INFO : Machine : Python executable location: /Users/pinball/mpf/bin/python3.14
+2026-02-17 13:21:23,758 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-02-17 13:21:23,760 : INFO : Machine : Initializing MPF...
+2026-02-17 13:21:23,862 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,883 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,883 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,883 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,884 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.14.3', 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,906 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.8.4-x86_64-i386-64bit-Mach-O', 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,906 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,907 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.6.0', 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,907 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.6.0: Mon Jan 19 22:02:22 PST 2026; root:xnu-10063.141.1.710.3~1/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,907 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,907 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/pinball/NapoleonDynamite/logs/2026-02-17-13-21-23-mpf-ANDREs-Mac-mini.local.log', 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,907 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-02-17 13:21:23,933 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-02-17 13:21:23,935 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-02-17 13:21:23,937 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-02-17 13:21:23,947 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2026-02-17 13:21:23,948 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2026-02-17 13:21:23,948 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-02-17 13:21:23,949 : INFO : ball_device.bd_plunger : State: idle
+2026-02-17 13:21:23,949 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2026-02-17 13:21:23,950 : INFO : ball_device.bd_trough : State: idle
+2026-02-17 13:21:23,956 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-02-17 13:21:23,959 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-02-17 13:21:23,959 : INFO : BallController : Initial balls found: 0
+2026-02-17 13:21:23,960 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,961 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,961 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,961 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,961 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,961 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,961 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,961 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,961 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,961 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,961 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,961 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2026-02-17 13:21:23,962 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-02-17 13:21:23,962 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-02-17 13:21:23,963 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-02-17 13:21:23,996 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-02-17 13:21:23,996 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-02-17 13:21:23,997 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-02-17 13:21:23,997 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-02-17 13:21:23,997 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-02-17 13:21:23,998 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:23,998 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:23,999 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-02-17 13:21:23,999 : INFO : Mode.attract : Started. Priority: 10
+2026-02-17 13:21:23,999 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-02-17 13:21:23,999 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-02-17 13:21:24,000 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-02-17 13:21:24,000 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2026-02-17 13:21:24,001 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:24,002 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-02-17 13:21:24,179 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2026-02-17 13:21:24,180 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2026-02-17 13:21:24,180 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2026-02-17 13:21:27,870 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:27,870 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:27,870 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-02-17 13:21:27,871 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:27,952 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:28,636 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-02-17 13:21:28,636 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2026-02-17 13:21:28,637 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-02-17 13:21:28,638 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:28,786 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-02-17 13:21:29,069 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-02-17 13:21:29,069 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2026-02-17 13:21:29,069 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'logo'}
+2026-02-17 13:21:29,070 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:29,202 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-02-17 13:21:29,719 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:29,719 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:29,719 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-02-17 13:21:29,720 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:29,836 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:30,202 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:30,202 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:30,203 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-02-17 13:21:30,203 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:30,335 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:31,052 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:31,052 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:31,053 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-02-17 13:21:31,053 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:31,152 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:31,702 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:31,702 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:31,703 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-02-17 13:21:31,703 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:31,819 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:32,402 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:32,402 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:32,403 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-02-17 13:21:32,403 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:32,519 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:37,151 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:37,151 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:37,152 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-02-17 13:21:37,152 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:37,251 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:37,718 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:37,718 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:37,718 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-02-17 13:21:37,719 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:37,851 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:38,251 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:38,251 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:38,252 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-02-17 13:21:38,252 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:38,368 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:38,918 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:38,918 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:38,918 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-02-17 13:21:38,918 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:39,084 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:39,368 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:39,368 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:39,368 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-02-17 13:21:39,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:39,468 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:39,802 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:39,802 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:39,803 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-02-17 13:21:39,804 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:39,918 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:40,184 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:40,184 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:40,185 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-02-17 13:21:40,185 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:40,301 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:40,468 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:40,468 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:40,468 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-02-17 13:21:40,469 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:40,567 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:40,684 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:40,685 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:40,685 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-02-17 13:21:40,685 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:40,767 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:40,867 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:40,868 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:40,868 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-02-17 13:21:40,868 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:40,968 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:41,051 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:41,051 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:41,052 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-02-17 13:21:41,052 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:41,151 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:41,234 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-02-17 13:21:41,234 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-02-17 13:21:41,235 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-02-17 13:21:41,235 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:41,335 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-02-17 13:21:41,484 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-02-17 13:21:41,484 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2026-02-17 13:21:41,485 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-02-17 13:21:41,485 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:41,584 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-02-17 13:21:41,667 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-02-17 13:21:41,668 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2026-02-17 13:21:41,668 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'logo'}
+2026-02-17 13:21:41,668 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:41,768 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-02-17 13:21:41,818 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-02-17 13:21:41,818 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2026-02-17 13:21:41,818 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-02-17 13:21:41,818 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:41,901 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-02-17 13:21:41,984 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-02-17 13:21:41,984 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2026-02-17 13:21:41,985 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-02-17 13:21:41,985 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:42,067 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-02-17 13:21:42,117 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-02-17 13:21:42,118 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2026-02-17 13:21:42,118 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'logo'}
+2026-02-17 13:21:42,118 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:42,201 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-02-17 13:21:42,267 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-02-17 13:21:42,268 : INFO : EventManager : Event: ======'s_flipper_left_active'====== Args={}
+2026-02-17 13:21:42,268 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-02-17 13:21:42,268 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:42,351 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-02-17 13:21:47,268 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-02-17 13:21:47,268 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-02-17 13:21:47,268 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:21:47,269 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:21:47,269 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-02-17 13:21:47,269 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-02-17 13:21:47,269 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:47,270 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:52,270 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-02-17 13:21:52,270 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-02-17 13:21:52,270 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:21:52,270 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:21:52,271 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-02-17 13:21:52,271 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-02-17 13:21:52,271 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:52,271 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:57,272 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-02-17 13:21:57,272 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-02-17 13:21:57,273 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:21:57,273 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:21:57,273 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-02-17 13:21:57,274 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-02-17 13:21:57,274 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:21:57,274 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:22:02,274 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-02-17 13:22:02,274 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-02-17 13:22:02,274 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:22:02,274 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:22:02,275 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-02-17 13:22:02,275 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-02-17 13:22:02,275 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:22:02,275 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:22:07,276 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-02-17 13:22:07,276 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-02-17 13:22:07,277 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:22:07,277 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:22:07,277 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-02-17 13:22:07,277 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-02-17 13:22:07,278 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:22:07,278 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:22:12,278 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-02-17 13:22:12,279 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-02-17 13:22:12,279 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:22:12,279 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:22:12,279 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-02-17 13:22:12,280 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-02-17 13:22:12,280 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:22:12,280 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:22:17,281 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-02-17 13:22:17,281 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-02-17 13:22:17,281 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:22:17,281 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-02-17 13:22:17,282 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-02-17 13:22:17,282 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-02-17 13:22:17,283 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:22:17,283 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-02-17 13:22:20,062 : INFO : Machine : Shutting down...
+2026-02-17 13:22:20,062 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-02-17 13:22:20,071 : INFO : root : MPF run loop ended.
