@@ -31,5 +31,4 @@ autofire_coils:
     switch: s_sling_left
   right_sling:
     coil: c_sling_right
-    switch: s_sling_right
-  
+    switch: s_sling_right  
