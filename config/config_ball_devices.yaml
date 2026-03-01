@@ -5,6 +5,8 @@ ball_devices:
     ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4, s_trough_5, s_trough_6, s_trough_7
     eject_coil: c_trough_eject
     eject_targets: bd_plunger
+    eject_timeouts: 3s
+    eject_coil_jam_pulse: 15ms
     tags: trough, home, drain #home means ok place for balls to be at start of game
     jam_switch: s_trough_7 #if this switch is active, the trough is considered jammed and won't try to eject balls until it's cleared
 
