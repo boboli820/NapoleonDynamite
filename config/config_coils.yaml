@@ -29,9 +29,6 @@ autofire_coils:
   left_sling:
     coil: c_sling_left
     switch: s_sling_left
-    enable_events: ball_started
   right_sling:
     coil: c_sling_right
-    switch: s_sling_right
-    enable_events: ball_started
-  
+    switch: s_sling_right  
