@@ -1,0 +1,160 @@
+2026-03-01 11:49:18,075 : INFO : root : Loading config.
+2026-03-01 11:49:18,441 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/config_spec.mpf_cache
+2026-03-01 11:49:18,442 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-01 11:49:18,442 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/954ddabc670342668a09b03520c7eb79.mpf_cache
+2026-03-01 11:49:18,505 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-01 11:49:18,506 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/767518d75df2d86a4d35c1fb94c70abd.mpf_cache
+2026-03-01 11:49:18,506 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-01 11:49:18,507 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/73548cb541cc3751ae5711fe0817282a.mpf_cache
+2026-03-01 11:49:18,507 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/57f006170cd447d443f971cd8b826597.mpf_cache
+2026-03-01 11:49:18,508 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/adb0ea3e4ccf2dafa758999a39c1d676.mpf_cache
+2026-03-01 11:49:18,509 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-03-01 11:49:18,509 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-03-01-11-49-18-mpf-ANDREs-Mac-mini.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/Users/pinball/NapoleonDynamite/logs/2026-03-01-11-49-18-mpf-ANDREs-Mac-mini.local.log'}
+2026-03-01 11:49:18,509 : INFO : Machine : MPF path: /Users/pinball/mpf/lib/python3.14/site-packages/mpf
+2026-03-01 11:49:18,509 : INFO : Machine : Machine path: /Users/pinball/NapoleonDynamite
+2026-03-01 11:49:18,509 : INFO : Machine : Platform: darwin
+2026-03-01 11:49:18,509 : INFO : Machine : Python executable location: /Users/pinball/mpf/bin/python3.14
+2026-03-01 11:49:18,509 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-03-01 11:49:18,510 : INFO : Machine : Initializing MPF...
+2026-03-01 11:49:18,623 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2026-03-01 11:49:18,644 : INFO : FAST : Detected NET on port /dev/cu.usbmodem14101
+2026-03-01 11:49:18,652 : INFO : FAST : Detected EXP on port /dev/cu.usbmodem14103
+2026-03-01 11:49:18,756 : INFO : FAST [NET] : Trying to connect to /dev/cu.usbmodem14101 at 921600bps
+2026-03-01 11:49:18,761 : INFO : FAST [NET] : Connected to /dev/cu.usbmodem14101 at 921600bps
+2026-03-01 11:49:18,763 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-03-01 11:49:18,765 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-03-01 11:49:18,766 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-03-01 11:49:18,768 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-03-01 11:49:18,769 : INFO : FAST [EXP] : Trying to connect to /dev/cu.usbmodem14103 at 921600bps
+2026-03-01 11:49:18,775 : INFO : FAST [EXP] : Connected to /dev/cu.usbmodem14103 at 921600bps
+2026-03-01 11:49:18,776 : INFO : FAST [EXP] : Verifying hardware for EXP "neuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.34", board address 48
+2026-03-01 11:49:18,778 : INFO : FAST [EXP] : Verifying hardware for EXP "neuron" (FP-EXP-2000, @48) with ID string "LED FP-BRK-0001  0.8", board address 480
+2026-03-01 11:49:18,779 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-03-01 11:49:18,796 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-03-01 11:49:18,797 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-03-01 11:49:18,797 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-03-01 11:49:18,797 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.14.3', 'prev_value': None, 'change': True}
+2026-03-01 11:49:18,819 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.8.4-x86_64-i386-64bit-Mach-O', 'prev_value': None, 'change': True}
+2026-03-01 11:49:18,819 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-03-01 11:49:18,819 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.6.0', 'prev_value': None, 'change': True}
+2026-03-01 11:49:18,819 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.6.0: Mon Jan 19 22:02:22 PST 2026; root:xnu-10063.141.1.710.3~1/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2026-03-01 11:49:18,820 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2026-03-01 11:49:18,820 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/pinball/NapoleonDynamite/logs/2026-03-01-11-49-18-mpf-ANDREs-Mac-mini.local.log', 'prev_value': None, 'change': True}
+2026-03-01 11:49:18,820 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-03-01 11:49:18,865 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-49' coro=<SystemWideDevice.device_added_system_wide() done, defined at /Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError("Autofire device 'left_sling' uses switch 's_sling_left' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch.")>
+Traceback (most recent call last):
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/devices/autofire.py", line 68, in _initialize
+    self.raise_config_error(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        "Autofire device '{}' uses switch '{}' which has a "
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            self.name, self.config['switch'].name, self.playfield.name,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            self.playfield.name), 1)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+        from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in autofire.left_sling: Autofire device 'left_sling' uses switch 's_sling_left' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire-1 (https://missionpinball.org/latest/logs)
+2026-03-01 11:49:18,867 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-40' coro=<SystemWideDevice.device_added_system_wide() done, defined at /Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_plunger_lane in platform. See error above')>
+Traceback (most recent call last):
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/devices/switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.config['number'], config, self.config['platform_settings'])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/fast.py", line 579, in configure_switch
+    self.raise_config_error(f"Could not parse switch number {config.name}/{number}. Seems "
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            "to be not a valid switch number for the FAST platform.", 8)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+        from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in FAST: Could not parse switch number s_plunger_lane/3208_middle-7, playfield_active. Seems to be not a valid switch number for the FAST platform. Error Code: CFE-https://fastpinball.com/mpf/error-8 (https://missionpinball.org/latest/logs)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/devices/switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+                          self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_plunger_lane in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-01 11:49:18,869 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-50' coro=<SystemWideDevice.device_added_system_wide() done, defined at /Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError("Autofire device 'right_sling' uses switch 's_sling_right' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch.")>
+Traceback (most recent call last):
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/devices/autofire.py", line 68, in _initialize
+    self.raise_config_error(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        "Autofire device '{}' uses switch '{}' which has a "
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            self.name, self.config['switch'].name, self.playfield.name,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            self.playfield.name), 1)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+        from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in autofire.right_sling: Autofire device 'right_sling' uses switch 's_sling_right' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire-1 (https://missionpinball.org/latest/logs)
+2026-03-01 11:49:18,871 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-47' coro=<SystemWideDevice.device_added_system_wide() done, defined at /Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_inlane_left in platform. See error above')>
+Traceback (most recent call last):
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/devices/switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.config['number'], config, self.config['platform_settings'])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/fast.py", line 579, in configure_switch
+    self.raise_config_error(f"Could not parse switch number {config.name}/{number}. Seems "
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            "to be not a valid switch number for the FAST platform.", 8)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+        from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in FAST: Could not parse switch number s_inlane_left/3208_middle-15, playfield_active. Seems to be not a valid switch number for the FAST platform. Error Code: CFE-https://fastpinball.com/mpf/error-8 (https://missionpinball.org/latest/logs)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/devices/switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+                          self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_inlane_left in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-01 11:49:18,873 : INFO : Machine : Starting the main run loop with active modes: []
+2026-03-01 11:49:18,873 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-03-01 11:49:18,874 : INFO : Machine : Shutting down...
+2026-03-01 11:49:18,874 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-03-01 11:49:19,980 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/devices/autofire.py", line 68, in _initialize
+    self.raise_config_error(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        "Autofire device '{}' uses switch '{}' which has a "
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            self.name, self.config['switch'].name, self.playfield.name,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            self.playfield.name), 1)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+        from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in autofire.left_sling: Autofire device 'left_sling' uses switch 's_sling_left' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire-1 (https://missionpinball.org/latest/logs)
+2026-03-01 11:49:19,982 : INFO : root : MPF run loop ended.

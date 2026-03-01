@@ -41,15 +41,15 @@ switches:
     number: 3208_middle-6
     tags: trough_jam
   s_plunger_lane:
-    number: 3208_middle-7, playfield_active
+    number: 3208_middle-7
 
   #playfield switches
   s_sling_left:
     number: 3208_middle-16
-    tags: left_sling, playfield_active
+    tags: left_sling
   s_sling_right:
     number: 3208_middle-9
-    tags: right_sling, playfield_active
+    tags: right_sling
   s_bumper_lower:
     number: 3208_middle-17
     tags: lower_bumper
@@ -63,7 +63,8 @@ switches:
     number: 3208_middle-12
     tags: right_lane_2, playfield_active
   s_inlane_left:
-    number: 3208_middle-15, playfield_active
+    number: 3208_middle-15
+    tags: left_lane, playfield_active
   s_scoop_tina:
     number: 3208_middle-19
     tags: tina_scoop
