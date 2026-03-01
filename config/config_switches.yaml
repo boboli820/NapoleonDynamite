@@ -38,9 +38,7 @@ switches:
   s_trough_6:
     number: 3208_middle-5
   s_trough_7:
-    number: 3208_middle-6
-    tags: trough_jam
- 
+    number: 3208_middle-6 
 
   #playfield switches
   s_plunger:
