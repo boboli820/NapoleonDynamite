@@ -2354,3 +2354,270 @@
 2026-03-01 15:22:17,368 : INFO : Timer.attract_carousel_timer : Starting Timer.
 2026-03-01 15:22:17,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
 2026-03-01 15:22:17,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:22,368 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:22:22,368 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:22:22,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:22,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:22,368 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-03-01 15:22:22,368 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:22:22,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:22,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:27,369 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:22:27,369 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:22:27,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:27,370 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:27,370 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-03-01 15:22:27,370 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:22:27,370 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:27,370 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:32,371 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:22:32,371 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:22:32,372 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:32,372 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:32,372 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-03-01 15:22:32,373 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:22:32,373 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:32,373 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:37,374 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:22:37,374 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:22:37,374 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:37,374 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:37,375 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-03-01 15:22:37,375 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:22:37,375 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:37,375 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:42,375 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:22:42,376 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:22:42,376 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:42,376 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:42,376 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-03-01 15:22:42,376 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:22:42,377 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:42,377 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:47,376 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:22:47,377 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:22:47,377 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:47,377 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:47,377 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-03-01 15:22:47,377 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:22:47,377 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:47,377 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:52,377 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:22:52,377 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:22:52,378 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:52,378 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:52,378 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-03-01 15:22:52,378 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:22:52,378 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:52,378 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:57,378 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:22:57,378 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:22:57,378 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:57,378 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:22:57,379 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-03-01 15:22:57,379 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:22:57,379 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:22:57,379 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:02,379 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:23:02,379 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:23:02,380 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:02,380 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:02,380 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-03-01 15:23:02,380 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:23:02,380 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:02,380 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:07,381 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:23:07,382 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:23:07,382 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:07,382 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:07,382 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-03-01 15:23:07,383 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:23:07,383 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:07,383 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:12,384 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:23:12,384 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:23:12,384 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:12,384 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:12,385 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-03-01 15:23:12,385 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:23:12,385 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:12,385 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:17,386 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:23:17,386 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:23:17,386 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:17,386 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:17,387 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-03-01 15:23:17,387 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:23:17,387 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:17,387 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:22,387 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:23:22,387 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:23:22,387 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:22,387 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:22,388 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-03-01 15:23:22,388 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:23:22,388 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:22,388 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:27,389 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:23:27,389 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:23:27,389 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:27,389 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:27,389 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-03-01 15:23:27,390 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:23:27,390 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:27,390 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:32,391 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:23:32,391 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:23:32,391 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:32,391 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:32,392 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-03-01 15:23:32,392 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:23:32,392 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:32,392 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:37,393 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:23:37,393 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:23:37,393 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:37,393 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:37,393 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-03-01 15:23:37,394 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:23:37,394 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:37,394 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:42,394 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:23:42,395 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:23:42,395 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:42,395 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:42,396 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-03-01 15:23:42,397 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:23:42,397 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:42,398 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:47,397 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:23:47,397 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:23:47,397 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:47,397 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:47,398 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-03-01 15:23:47,398 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:23:47,398 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:47,398 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:52,398 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:23:52,398 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:23:52,399 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:52,399 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:52,399 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-03-01 15:23:52,399 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:23:52,400 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:52,400 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:57,400 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:23:57,400 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:23:57,400 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:57,400 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:23:57,400 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-03-01 15:23:57,400 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:23:57,401 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:23:57,401 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:02,401 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:24:02,401 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:24:02,401 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:02,401 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:02,402 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-03-01 15:24:02,402 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:24:02,402 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:02,402 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:07,403 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:24:07,403 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:24:07,403 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:07,403 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:07,404 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-03-01 15:24:07,404 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:24:07,404 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:07,404 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:12,405 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:24:12,405 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:24:12,405 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:12,405 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:12,405 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-03-01 15:24:12,405 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:24:12,406 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:12,406 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:17,406 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:24:17,406 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:24:17,406 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:17,407 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:17,407 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-03-01 15:24:17,408 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:24:17,408 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:17,408 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:22,408 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:24:22,408 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:24:22,408 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:22,408 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:22,409 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-03-01 15:24:22,409 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:24:22,409 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:22,409 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:27,410 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:24:27,410 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:24:27,410 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:27,410 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:27,411 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-03-01 15:24:27,411 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:24:27,411 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:27,411 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:32,412 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:24:32,412 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:24:32,412 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:32,412 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:32,413 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-03-01 15:24:32,413 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:24:32,414 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:32,414 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:37,414 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:24:37,414 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:24:37,414 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:37,414 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:37,415 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-03-01 15:24:37,415 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:24:37,415 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:37,415 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:42,416 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:24:42,416 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:24:42,416 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:42,416 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:42,416 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-03-01 15:24:42,416 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:24:42,417 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:42,417 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:47,417 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:24:47,418 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:24:47,418 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:47,418 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:47,418 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-03-01 15:24:47,418 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:24:47,418 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:47,418 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:52,419 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:24:52,420 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:24:52,420 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:52,420 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:52,420 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-03-01 15:24:52,421 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:24:52,421 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:52,421 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:57,421 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:24:57,421 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:24:57,421 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:57,421 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:24:57,422 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-03-01 15:24:57,422 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:24:57,422 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:24:57,422 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:25:02,422 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 15:25:02,422 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 15:25:02,423 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:25:02,423 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 15:25:02,423 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-03-01 15:25:02,423 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 15:25:02,423 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:25:02,423 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 15:25:03,296 : INFO : Machine : Shutting down...
+2026-03-01 15:25:03,296 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-03-01 15:25:03,407 : INFO : root : MPF run loop ended.

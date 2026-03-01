@@ -45,10 +45,8 @@ switches:
     number: 3208_middle-7
   s_sling_left:
     number: 3208_middle-16
-    tags: playfield_active
   s_sling_right:
     number: 3208_middle-9
-    tags: playfield_active
   s_bumper_lower:
     number: 3208_middle-17
   s_bumper_upper:
