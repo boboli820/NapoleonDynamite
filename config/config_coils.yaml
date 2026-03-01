@@ -1,5 +1,9 @@
 #config_version=6
 
+#################################
+# Coils Config Section          #
+#################################
+
 coils:
   c_trough_eject:
     number: 3208_middle-1
@@ -10,7 +14,7 @@ coils:
     number: 3208_middle-3
   c_flipper_right_lower_hold:
     number: 3208_middle-4
-    allow_enable: true
+    allow_enable: true #allow_enable: true only for hold coils, not for main coils. If you set allow_enable: true for a main coil, MPF will allow you to enable it, but it won't actually do anything because main coils aren't designed to be enabled.
   c_flipper_right_lower_main:
     number: 3208_middle-5
   c_sling_left:
@@ -21,10 +25,13 @@ coils:
     number: 0804_right-0
   c_flipper_upper_hold:
     number: 0804_right-1
-    allow_enable: true
+    allow_enable: true #allow_enable: true only for hold coils, not for main coils. If you set allow_enable: true for a main coil, MPF will allow you to enable it, but it won't actually do anything because main coils aren't designed to be enabled.
   c_scoop_tina:
     number: 0804_right-2
 
+#################################
+# AutoFire Coils Config Section #
+#################################
 autofire_coils:
   left_sling:
     coil: c_sling_left
