@@ -56,7 +56,7 @@ modes:
 
 playfields:
   playfield:
-    default_source_device: bd_trough
+    default_source_device: bd_plunger
     tags: default
 
 flippers:

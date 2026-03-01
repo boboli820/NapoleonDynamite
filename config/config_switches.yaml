@@ -6,20 +6,26 @@ switches:
     number: cab_board-8
     debounce: quick
     tags: left_flipper
+
   s_flipper_left_eos:
     number: 3208_middle-13
+
   s_flipper_right_lower:
     number: cab_board-16
     debounce: quick
     tags: right_flipper_lower
+
   s_flipper_right_lower_eos:
     number: 3208_middle-8
+
   s_flipper_right_upper:
     number: cab_board-17
     debounce: quick
     tags: right_flipper_upper
+
   s_flipper_right_upper_eos:
     number: 3208_middle-20
+
   s_start:
     number: cab_board-0
     tags: start
@@ -43,22 +49,30 @@ switches:
   #playfield switches
   s_plunger:
     number: 3208_middle-7
+
   s_sling_left:
     number: 3208_middle-16
+
   s_sling_right:
     number: 3208_middle-9
+
   s_bumper_lower:
     number: 3208_middle-17
+
   s_bumper_upper:
     number: 3208_middle-18
+
   s_inlane_right_1:
     number: 3208_middle-11
     tags: playfield_active
+
   s_inlane_right_2:
     number: 3208_middle-12
     tags: playfield_active
+
   s_inlane_left:
     number: 3208_middle-15
     tags: playfield_active
-  s_scoop_tina:
-    number: 3208_middle-19
+
+#  s_scoop_tina:
+#    number: 3208_middle-19
