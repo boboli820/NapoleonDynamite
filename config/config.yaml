@@ -39,9 +39,9 @@ fast:
     boards:
       neuron:
         model: FP-EXP-2000
-        breakouts:
-          - port: 1
-            model: FP-PWR-0030
+  #      breakouts:
+  #        - port: 1
+  #          model: FP-PWR-0030
 
 config:
   - config_ball_devices.yaml
@@ -65,24 +65,28 @@ flippers:
     hold_coil: c_flipper_left_hold
     activation_switch: s_flipper_left
     eos_switch: s_flipper_left_eos
+    enable_events: machine_reset_phase_3
   right_flipper_lower:
     main_coil: c_flipper_right_lower_main
     hold_coil: c_flipper_right_lower_hold
     activation_switch: s_flipper_right_lower
     eos_switch: s_flipper_right_lower_eos
+    enable_events: machine_reset_phase_3
   right_flipper_upper:
     main_coil: c_flipper_upper_main
     hold_coil: c_flipper_upper_hold
     activation_switch: s_flipper_right_upper
     eos_switch: s_flipper_right_upper_eos
+    enable_events: machine_reset_phase_3
 
-#virtual_platform_start_active_switches:
-#  - s_trough_1
-#  - s_trough_2
-#  - s_trough_3
-#  - s_trough_4
-#  - s_trough_5
-#  - s_trough_6
-#  - s_trough_7
+
+virtual_platform_start_active_switches:
+  - s_trough_1
+  - s_trough_2
+  - s_trough_3
+  - s_trough_4
+  - s_trough_5
+  - s_trough_6
+  - s_trough_7
 
 

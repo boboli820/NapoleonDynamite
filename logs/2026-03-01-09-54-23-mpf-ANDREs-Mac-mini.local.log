@@ -1,0 +1,58 @@
+2026-03-01 09:54:23,523 : INFO : root : Loading config.
+2026-03-01 09:54:23,882 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/config_spec.mpf_cache
+2026-03-01 09:54:23,883 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-01 09:54:23,883 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/954ddabc670342668a09b03520c7eb79.mpf_cache
+2026-03-01 09:54:23,952 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-01 09:54:23,953 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/767518d75df2d86a4d35c1fb94c70abd.mpf_cache
+2026-03-01 09:54:23,954 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-01 09:54:23,954 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/73548cb541cc3751ae5711fe0817282a.mpf_cache
+2026-03-01 09:54:23,955 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/57f006170cd447d443f971cd8b826597.mpf_cache
+2026-03-01 09:54:23,955 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/adb0ea3e4ccf2dafa758999a39c1d676.mpf_cache
+2026-03-01 09:54:23,956 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-03-01 09:54:23,956 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-03-01-09-54-23-mpf-ANDREs-Mac-mini.local.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/Users/pinball/NapoleonDynamite/logs/2026-03-01-09-54-23-mpf-ANDREs-Mac-mini.local.log'}
+2026-03-01 09:54:23,956 : INFO : Machine : MPF path: /Users/pinball/mpf/lib/python3.14/site-packages/mpf
+2026-03-01 09:54:23,956 : INFO : Machine : Machine path: /Users/pinball/NapoleonDynamite
+2026-03-01 09:54:23,956 : INFO : Machine : Platform: darwin
+2026-03-01 09:54:23,956 : INFO : Machine : Python executable location: /Users/pinball/mpf/bin/python3.14
+2026-03-01 09:54:23,956 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-03-01 09:54:23,958 : INFO : Machine : Initializing MPF...
+2026-03-01 09:54:24,040 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2026-03-01 09:54:24,062 : INFO : FAST : Detected NET on port /dev/cu.usbmodem14101
+2026-03-01 09:54:24,069 : INFO : FAST : Detected EXP on port /dev/cu.usbmodem14103
+2026-03-01 09:54:24,174 : INFO : FAST [NET] : Trying to connect to /dev/cu.usbmodem14101 at 921600bps
+2026-03-01 09:54:24,179 : INFO : FAST [NET] : Connected to /dev/cu.usbmodem14101 at 921600bps
+2026-03-01 09:54:24,181 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-03-01 09:54:24,184 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-03-01 09:54:24,185 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-03-01 09:54:24,187 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-03-01 09:54:24,189 : INFO : FAST [EXP] : Trying to connect to /dev/cu.usbmodem14103 at 921600bps
+2026-03-01 09:54:24,194 : INFO : FAST [EXP] : Connected to /dev/cu.usbmodem14103 at 921600bps
+2026-03-01 09:54:24,195 : INFO : Machine : Shutting down...
+2026-03-01 09:54:24,195 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-03-01 09:54:24,300 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 688, in initialize_mpf
+    raise init.exception()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 250, in initialize
+    await self.initialize_core_and_hardware()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 246, in initialize_core_and_hardware
+    await self._initialize_platforms()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 336, in _initialize_platforms
+    result.result()
+    ~~~~~~~~~~~~~^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/fast.py", line 126, in initialize
+    await self._connect_to_hardware()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/fast.py", line 295, in _connect_to_hardware
+    await communicator.init()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/communicators/exp.py", line 37, in init
+    await self.query_exp_boards()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/communicators/exp.py", line 71, in query_exp_boards
+    board_obj = FastExpansionBoard(board_name, self, board_address, board_config)
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/fast_exp_board.py", line 68, in __init__
+    self.create_breakout(brk)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/fast_exp_board.py", line 72, in create_breakout
+    if BREAKOUT_FEATURES[config['model']].get('device_class'):
+       ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'FP-PWR-0030'
+2026-03-01 09:54:24,303 : INFO : root : MPF run loop ended.

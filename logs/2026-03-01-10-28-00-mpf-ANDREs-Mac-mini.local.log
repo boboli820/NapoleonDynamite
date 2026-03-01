@@ -1,0 +1,125 @@
+2026-03-01 10:28:00,150 : INFO : root : Loading config.
+2026-03-01 10:28:00,488 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/config_spec.mpf_cache
+2026-03-01 10:28:00,488 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-01 10:28:00,489 : WARNING : ConfigProcessor : Config file in cache changed: /Users/pinball/NapoleonDynamite/config/config.yaml
+2026-03-01 10:28:00,489 : INFO : ConfigProcessor : Loading config from file /Users/pinball/mpf/lib/python3.14/site-packages/mpf/mpfconfig.yaml.
+2026-03-01 10:28:00,565 : INFO : ConfigProcessor : Loading config: /Users/pinball/mpf/lib/python3.14/site-packages/mpf/mpfconfig.yaml
+2026-03-01 10:28:00,566 : INFO : ConfigProcessor : Loading config from file /Users/pinball/NapoleonDynamite/config/config.yaml.
+2026-03-01 10:28:00,577 : INFO : ConfigProcessor : Loading config: /Users/pinball/NapoleonDynamite/config/config.yaml
+2026-03-01 10:28:00,580 : INFO : ConfigProcessor : Loading config: /Users/pinball/NapoleonDynamite/config/config_ball_devices.yaml
+2026-03-01 10:28:00,586 : INFO : ConfigProcessor : Loading config: /Users/pinball/NapoleonDynamite/config/config_coils.yaml
+2026-03-01 10:28:00,597 : INFO : ConfigProcessor : Loading config: /Users/pinball/NapoleonDynamite/config/config_switches.yaml
+2026-03-01 10:28:00,599 : INFO : ConfigProcessor : Config file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/954ddabc670342668a09b03520c7eb79.mpf_cache
+2026-03-01 10:28:00,688 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-01 10:28:00,688 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/767518d75df2d86a4d35c1fb94c70abd.mpf_cache
+2026-03-01 10:28:00,689 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-01 10:28:00,690 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/73548cb541cc3751ae5711fe0817282a.mpf_cache
+2026-03-01 10:28:00,690 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/57f006170cd447d443f971cd8b826597.mpf_cache
+2026-03-01 10:28:00,691 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/adb0ea3e4ccf2dafa758999a39c1d676.mpf_cache
+2026-03-01 10:28:00,691 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-03-01 10:28:00,691 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-03-01-10-28-00-mpf-ANDREs-Mac-mini.local.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/Users/pinball/NapoleonDynamite/logs/2026-03-01-10-28-00-mpf-ANDREs-Mac-mini.local.log'}
+2026-03-01 10:28:00,692 : INFO : Machine : MPF path: /Users/pinball/mpf/lib/python3.14/site-packages/mpf
+2026-03-01 10:28:00,692 : INFO : Machine : Machine path: /Users/pinball/NapoleonDynamite
+2026-03-01 10:28:00,692 : INFO : Machine : Platform: darwin
+2026-03-01 10:28:00,692 : INFO : Machine : Python executable location: /Users/pinball/mpf/bin/python3.14
+2026-03-01 10:28:00,692 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-03-01 10:28:00,693 : INFO : Machine : Initializing MPF...
+2026-03-01 10:28:00,720 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 688, in initialize_mpf
+    raise init.exception()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 250, in initialize
+    await self.initialize_core_and_hardware()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 236, in initialize_core_and_hardware
+    self._load_hardware_platforms()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 492, in _load_hardware_platforms
+    self.add_platform(hardware_platform)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 622, in add_platform
+    self.hardware_platforms[name] = hardware_platform(self)
+                                    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/fast.py", line 60, in __init__
+    self.config = self.machine.config_validator.validate_config("fast", self.machine.config['fast'])
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        this_spec[k], item=source[k],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        validation_failure_info=ValidationPath(validation_failure_info, k))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 368, in _validate_type_subconfig
+    return self._validate_config(attribute, item, validation_failure_info=validation_failure_info,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 base_spec=base_spec)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        this_spec[k], item=source[k],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        validation_failure_info=ValidationPath(validation_failure_info, k))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 274, in validate_config_item
+    return self._validate_dict(item_type, validation, validation_failure_info, item)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 303, in _validate_dict
+    self.validate_item(v, validators[1], ValidationPath(validation_failure_info, k)))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 368, in _validate_type_subconfig
+    return self._validate_config(attribute, item, validation_failure_info=validation_failure_info,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 base_spec=base_spec)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        this_spec[k], item=source[k],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        validation_failure_info=ValidationPath(validation_failure_info, k))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 256, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+                    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 368, in _validate_type_subconfig
+    return self._validate_config(attribute, item, validation_failure_info=validation_failure_info,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 base_spec=base_spec)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        this_spec[k], item=source[k],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        validation_failure_info=ValidationPath(validation_failure_info, k))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 390, in _validate_type_enum
+    raise self.validation_error(
+        item, validation_failure_info,
+        f'Entry "{item}" is not valid for enum. Valid values are: {str(param)}')
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry fast:fast:exp:boards:neuron:breakouts:port = "auto" is not valid. Entry "auto" is not valid for enum. Valid values are: 1,2,3 Error Code: CFE-ConfigValidator-5 (https://missionpinball.org/latest/logs)
+2026-03-01 10:28:00,731 : INFO : root : MPF run loop ended.

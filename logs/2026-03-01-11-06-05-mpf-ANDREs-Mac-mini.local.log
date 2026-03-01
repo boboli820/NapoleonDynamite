@@ -1,0 +1,176 @@
+2026-03-01 11:06:05,910 : INFO : root : Loading config.
+2026-03-01 11:06:06,288 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/config_spec.mpf_cache
+2026-03-01 11:06:06,289 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-01 11:06:06,289 : INFO : ConfigProcessor : Loading config from file /Users/pinball/mpf/lib/python3.14/site-packages/mpf/mpfconfig.yaml.
+2026-03-01 11:06:06,365 : INFO : ConfigProcessor : Loading config: /Users/pinball/mpf/lib/python3.14/site-packages/mpf/mpfconfig.yaml
+2026-03-01 11:06:06,365 : INFO : ConfigProcessor : Loading config from file /Users/pinball/NapoleonDynamite/config/config.yaml.
+2026-03-01 11:06:06,377 : INFO : ConfigProcessor : Loading config: /Users/pinball/NapoleonDynamite/config/config.yaml
+2026-03-01 11:06:06,385 : INFO : ConfigProcessor : Loading config: /Users/pinball/NapoleonDynamite/config/config_ball_devices.yaml
+2026-03-01 11:06:06,392 : INFO : ConfigProcessor : Loading config: /Users/pinball/NapoleonDynamite/config/config_coils.yaml
+2026-03-01 11:06:06,405 : INFO : ConfigProcessor : Loading config: /Users/pinball/NapoleonDynamite/config/config_switches.yaml
+2026-03-01 11:06:06,406 : INFO : ConfigProcessor : Config file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/954ddabc670342668a09b03520c7eb79.mpf_cache
+2026-03-01 11:06:06,504 : INFO : ConfigProcessor : Loading config from file /Users/pinball/mpf/lib/python3.14/site-packages/mpf/modes/attract/config/attract.yaml.
+2026-03-01 11:06:06,506 : INFO : ConfigProcessor : Loading config: /Users/pinball/mpf/lib/python3.14/site-packages/mpf/modes/attract/config/attract.yaml
+2026-03-01 11:06:06,507 : INFO : ConfigProcessor : Loading config from file /Users/pinball/NapoleonDynamite/modes/attract/config/attract.yaml.
+2026-03-01 11:06:06,512 : INFO : ConfigProcessor : Loading config: /Users/pinball/NapoleonDynamite/modes/attract/config/attract.yaml
+2026-03-01 11:06:06,513 : INFO : ConfigProcessor : Config file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-01 11:06:06,513 : INFO : ConfigProcessor : Loading config from file /Users/pinball/mpf/lib/python3.14/site-packages/mpf/modes/game/config/game.yaml.
+2026-03-01 11:06:06,515 : INFO : ConfigProcessor : Loading config: /Users/pinball/mpf/lib/python3.14/site-packages/mpf/modes/game/config/game.yaml
+2026-03-01 11:06:06,515 : INFO : ConfigProcessor : Config file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/767518d75df2d86a4d35c1fb94c70abd.mpf_cache
+2026-03-01 11:06:06,516 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-01 11:06:06,517 : INFO : ConfigProcessor : Loading config from file /Users/pinball/NapoleonDynamite/modes/base/config/base.yaml.
+2026-03-01 11:06:06,521 : INFO : ConfigProcessor : Loading config: /Users/pinball/NapoleonDynamite/modes/base/config/base.yaml
+2026-03-01 11:06:06,522 : INFO : ConfigProcessor : Config file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/73548cb541cc3751ae5711fe0817282a.mpf_cache
+2026-03-01 11:06:06,522 : INFO : ConfigProcessor : Loading config from file /Users/pinball/NapoleonDynamite/modes/bumpers/config/bumpers.yaml.
+2026-03-01 11:06:06,526 : INFO : ConfigProcessor : Loading config: /Users/pinball/NapoleonDynamite/modes/bumpers/config/bumpers.yaml
+2026-03-01 11:06:06,526 : INFO : ConfigProcessor : Config file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/57f006170cd447d443f971cd8b826597.mpf_cache
+2026-03-01 11:06:06,526 : INFO : ConfigProcessor : Loading config from file /Users/pinball/NapoleonDynamite/modes/hurryup/config/hurryup.yaml.
+2026-03-01 11:06:06,532 : INFO : ConfigProcessor : Loading config: /Users/pinball/NapoleonDynamite/modes/hurryup/config/hurryup.yaml
+2026-03-01 11:06:06,532 : INFO : ConfigProcessor : Config file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/adb0ea3e4ccf2dafa758999a39c1d676.mpf_cache
+2026-03-01 11:06:06,533 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-03-01 11:06:06,533 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-03-01-11-06-05-mpf-ANDREs-Mac-mini.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/pinball/NapoleonDynamite/logs/2026-03-01-11-06-05-mpf-ANDREs-Mac-mini.local.log'}
+2026-03-01 11:06:06,533 : INFO : Machine : MPF path: /Users/pinball/mpf/lib/python3.14/site-packages/mpf
+2026-03-01 11:06:06,533 : INFO : Machine : Machine path: /Users/pinball/NapoleonDynamite
+2026-03-01 11:06:06,533 : INFO : Machine : Platform: darwin
+2026-03-01 11:06:06,533 : INFO : Machine : Python executable location: /Users/pinball/mpf/bin/python3.14
+2026-03-01 11:06:06,533 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-03-01 11:06:06,535 : INFO : Machine : Initializing MPF...
+2026-03-01 11:06:06,852 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-03-01 11:06:06,888 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-03-01 11:06:06,888 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-03-01 11:06:06,888 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-03-01 11:06:06,888 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.14.3', 'prev_value': None, 'change': True}
+2026-03-01 11:06:06,914 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.8.4-x86_64-i386-64bit-Mach-O', 'prev_value': None, 'change': True}
+2026-03-01 11:06:06,914 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-03-01 11:06:06,914 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.6.0', 'prev_value': None, 'change': True}
+2026-03-01 11:06:06,914 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.6.0: Mon Jan 19 22:02:22 PST 2026; root:xnu-10063.141.1.710.3~1/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2026-03-01 11:06:06,914 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2026-03-01 11:06:06,914 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/pinball/NapoleonDynamite/logs/2026-03-01-11-06-05-mpf-ANDREs-Mac-mini.local.log', 'prev_value': None, 'change': True}
+2026-03-01 11:06:06,915 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-03-01 11:06:06,952 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-03-01 11:06:06,952 : INFO : SwitchController : Found active switch: ('3208_middle-0', <Platform.Virtual>) <switch.s_trough_1>
+2026-03-01 11:06:06,952 : INFO : SwitchController : Found active switch: ('3208_middle-1', <Platform.Virtual>) <switch.s_trough_2>
+2026-03-01 11:06:06,953 : INFO : SwitchController : Found active switch: ('3208_middle-2', <Platform.Virtual>) <switch.s_trough_3>
+2026-03-01 11:06:06,953 : INFO : SwitchController : Found active switch: ('3208_middle-3', <Platform.Virtual>) <switch.s_trough_4>
+2026-03-01 11:06:06,953 : INFO : SwitchController : Found active switch: ('3208_middle-4', <Platform.Virtual>) <switch.s_trough_5>
+2026-03-01 11:06:06,953 : INFO : SwitchController : Found active switch: ('3208_middle-5', <Platform.Virtual>) <switch.s_trough_6>
+2026-03-01 11:06:06,953 : INFO : SwitchController : Found active switch: ('3208_middle-6', <Platform.Virtual>) <switch.s_trough_7>
+2026-03-01 11:06:06,958 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-03-01 11:06:06,964 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-03-01 11:06:06,975 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2026-03-01 11:06:06,976 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2026-03-01 11:06:06,979 : INFO : ball_device.bd_trough : BCH: Initial count: 7
+2026-03-01 11:06:06,980 : INFO : ball_device.bd_trough : State: idle
+2026-03-01 11:06:06,980 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-03-01 11:06:06,981 : INFO : ball_device.bd_plunger : State: idle
+2026-03-01 11:06:07,000 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-03-01 11:06:07,010 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-03-01 11:06:07,010 : INFO : BallController : Initial balls found: 7
+2026-03-01 11:06:07,011 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,012 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,012 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_bumper_lower'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,012 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_bumper_upper'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,012 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_left'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,012 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_left_eos'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,012 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_right_lower_eos'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,012 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_right_upper_eos'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,012 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlane_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,013 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlane_right_2'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,013 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_scoop_tina'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,013 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,013 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_lower'====== Args={'value': 76, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,013 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_upper'====== Args={'value': 81, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,013 : INFO : EventManager : Event: ======'machine_var_audits_shots_hurryup'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,013 : INFO : EventManager : Event: ======'machine_var_audits_shots_inlane_left'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,013 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_lane'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,014 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_lower'====== Args={'value': 76, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,014 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_upper'====== Args={'value': 81, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,014 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,014 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,014 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right_lower'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,014 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right_lower_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,014 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right_upper'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,014 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right_upper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,014 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_left'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_right_1'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_right_2'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_scoop_tina'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,015 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,016 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_7'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2026-03-01 11:06:07,016 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-03-01 11:06:07,017 : INFO : ball_device.bd_trough : BCH: Count is unstable. Trying to reorder balls.
+2026-03-01 11:06:07,017 : WARNING : ball_device.bd_trough : Cannot reorder device because eject_coil_reorder_pulse is not configured
+2026-03-01 11:06:07,017 : INFO : ball_device.bd_trough : BCH: Repulse done. Waiting for balls to settle.
+2026-03-01 11:06:07,017 : INFO : ball_device.bd_trough : BCH: Reordered count: 7
+2026-03-01 11:06:07,018 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-03-01 11:06:07,018 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-03-01 11:06:07,035 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-03-01 11:06:07,035 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-03-01 11:06:07,037 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-03-01 11:06:07,037 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-03-01 11:06:07,038 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 11:06:07,038 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 11:06:07,038 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 11:06:07,039 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-03-01 11:06:07,040 : INFO : Mode.attract : Started. Priority: 10
+2026-03-01 11:06:07,040 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-03-01 11:06:07,040 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-03-01 11:06:07,041 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-03-01 11:06:07,042 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2026-03-01 11:06:07,042 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 11:06:07,042 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-03-01 11:06:07,257 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2026-03-01 11:06:07,257 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2026-03-01 11:06:07,257 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2026-03-01 11:06:12,042 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 11:06:12,043 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 11:06:12,043 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 11:06:12,043 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 11:06:12,043 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-03-01 11:06:12,043 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 11:06:12,043 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 11:06:12,043 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 11:06:17,044 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 11:06:17,044 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 11:06:17,044 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 11:06:17,044 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 11:06:17,045 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-03-01 11:06:17,045 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 11:06:17,045 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 11:06:17,045 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 11:06:22,046 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 11:06:22,046 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 11:06:22,046 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 11:06:22,046 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 11:06:22,047 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-03-01 11:06:22,047 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 11:06:22,047 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 11:06:22,047 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 11:06:27,048 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 11:06:27,048 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 11:06:27,048 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 11:06:27,048 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 11:06:27,049 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-03-01 11:06:27,049 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 11:06:27,049 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 11:06:27,049 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 11:06:32,050 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-03-01 11:06:32,050 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-03-01 11:06:32,051 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 11:06:32,051 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-03-01 11:06:32,051 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'logo'}
+2026-03-01 11:06:32,051 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-03-01 11:06:32,051 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 11:06:32,052 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-03-01 11:06:35,882 : INFO : Machine : Shutting down...
+2026-03-01 11:06:35,882 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-03-01 11:06:35,888 : INFO : root : MPF run loop ended.
