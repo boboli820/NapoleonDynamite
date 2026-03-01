@@ -2,4 +2,23 @@
 
 coils:
   c_trough_eject:
-    number: #1
+    number: 1
+  c_flipper_left_hold:
+    number: 2
+  c_flipper_left_main:
+    number: 3
+  c_flipper_right_lower_hold:
+    number: 4
+  c_flipper_right_lower_main:
+    number: 5
+  c_sling_left:
+    number: 6
+  c_sling_right:
+    number: 7  
+  c_flipper_upper_main:
+    number: 8
+  c_flipper_upper_hold:
+    number: 9
+  c_scoop_tina:
+    number: 10
+ 

@@ -12,7 +12,7 @@ event_player:
     hurryup_value:
       current_hurryup:
         type: int
-        value: 100_000 - ticks * 10_000
+        value: 100_000 - ticks * 2_000
 
 shots:
   hurryup:
@@ -23,9 +23,10 @@ slide_player:
   
 timers:
   hurryup_timer:
-    end_value: 5
-    start_running: true 
+    end_value: 25
+    start_running: true
+    tick_interval: 200ms 
 
 variable_player:
   hurryup_hit:
-    score: 100_000 - device.timers.hurryup_timer.ticks * 10_000 #100k at start, minus # of ticks * 10k -- 90k, 80k, etc. down to 10k at end of hurryup
+    score: 100_000 - device.timers.hurryup_timer.ticks * 2_000 #100k at start, minus # of ticks * 10k -- 90k, 80k, etc. down to 10k at end of hurryup

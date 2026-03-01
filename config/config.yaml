@@ -7,6 +7,42 @@
 # include everything here, or create sub-config files to be
 # imported and merged with this one.
 
+hardware:
+  platform: fast
+
+fast:
+  net:
+    controller: neuron
+    io_loop:
+      cab_board: 
+        model: FP-I/O-0024
+        order: 1
+      playfield_middle_board:
+        model: FP-I/O-3208
+        order: 2
+      playfield_back_right_board:
+        model: FP-I/O-0804
+        order: 3
+      playfield_back_left_board:
+        model: FP-I/O-0804
+        order: 4
+    port: auto
+    baud: 921600
+    debug: false
+    watchdog: 1s
+    default_quick_debounce_open: 2ms
+    default_quick_debounce_close: 2ms
+    default_normal_debounce_open: 4ms
+    default_normal_debounce_close: 4ms
+
+  exp:
+    boards:
+      neuron:
+        model: FP-EXP-2000
+        breakouts:
+          - port: 1
+            model: FP-PWR-0030
+
 config:
   - config_ball_devices.yaml
   - config_coils.yaml
@@ -23,13 +59,13 @@ playfields:
     default_source_device: bd_trough
     tags: default
 
-virtual_platform_start_active_switches:
-  - s_trough_1
-  - s_trough_2
-  - s_trough_3
-  - s_trough_4
-  - s_trough_5
-  - s_trough_6
-  - s_trough_7
+#virtual_platform_start_active_switches:
+#  - s_trough_1
+#  - s_trough_2
+#  - s_trough_3
+#  - s_trough_4
+#  - s_trough_5
+#  - s_trough_6
+#  - s_trough_7
 
 
