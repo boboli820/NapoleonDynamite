@@ -1,0 +1,121 @@
+2026-03-01 14:45:09,103 : INFO : root : Loading config.
+2026-03-01 14:45:09,443 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/config_spec.mpf_cache
+2026-03-01 14:45:09,444 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-01 14:45:09,444 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/954ddabc670342668a09b03520c7eb79.mpf_cache
+2026-03-01 14:45:09,507 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-01 14:45:09,508 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/767518d75df2d86a4d35c1fb94c70abd.mpf_cache
+2026-03-01 14:45:09,508 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-01 14:45:09,508 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/73548cb541cc3751ae5711fe0817282a.mpf_cache
+2026-03-01 14:45:09,509 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/57f006170cd447d443f971cd8b826597.mpf_cache
+2026-03-01 14:45:09,509 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/adb0ea3e4ccf2dafa758999a39c1d676.mpf_cache
+2026-03-01 14:45:09,510 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-03-01 14:45:09,510 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-03-01-14-45-09-mpf-ANDREs-Mac-mini.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/Users/pinball/NapoleonDynamite/logs/2026-03-01-14-45-09-mpf-ANDREs-Mac-mini.local.log'}
+2026-03-01 14:45:09,510 : INFO : Machine : MPF path: /Users/pinball/mpf/lib/python3.14/site-packages/mpf
+2026-03-01 14:45:09,510 : INFO : Machine : Machine path: /Users/pinball/NapoleonDynamite
+2026-03-01 14:45:09,510 : INFO : Machine : Platform: darwin
+2026-03-01 14:45:09,510 : INFO : Machine : Python executable location: /Users/pinball/mpf/bin/python3.14
+2026-03-01 14:45:09,510 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-03-01 14:45:09,511 : INFO : Machine : Initializing MPF...
+2026-03-01 14:45:09,607 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2026-03-01 14:45:09,627 : INFO : FAST : Detected NET on port /dev/cu.usbmodem14101
+2026-03-01 14:45:09,636 : INFO : FAST : Detected EXP on port /dev/cu.usbmodem14103
+2026-03-01 14:45:09,739 : INFO : FAST [NET] : Trying to connect to /dev/cu.usbmodem14101 at 921600bps
+2026-03-01 14:45:09,744 : INFO : FAST [NET] : Connected to /dev/cu.usbmodem14101 at 921600bps
+2026-03-01 14:45:09,746 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-03-01 14:45:09,748 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-03-01 14:45:09,750 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-03-01 14:45:09,751 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-03-01 14:45:09,753 : INFO : FAST [EXP] : Trying to connect to /dev/cu.usbmodem14103 at 921600bps
+2026-03-01 14:45:09,757 : INFO : FAST [EXP] : Connected to /dev/cu.usbmodem14103 at 921600bps
+2026-03-01 14:45:09,759 : INFO : FAST [EXP] : Verifying hardware for EXP "neuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.34", board address 48
+2026-03-01 14:45:09,760 : INFO : FAST [EXP] : Verifying hardware for EXP "neuron" (FP-EXP-2000, @48) with ID string "LED FP-BRK-0001  0.8", board address 480
+2026-03-01 14:45:09,761 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-03-01 14:45:09,777 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-03-01 14:45:09,777 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-03-01 14:45:09,777 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-03-01 14:45:09,777 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.14.3', 'prev_value': None, 'change': True}
+2026-03-01 14:45:09,797 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.8.4-x86_64-i386-64bit-Mach-O', 'prev_value': None, 'change': True}
+2026-03-01 14:45:09,798 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-03-01 14:45:09,798 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.6.0', 'prev_value': None, 'change': True}
+2026-03-01 14:45:09,798 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.6.0: Mon Jan 19 22:02:22 PST 2026; root:xnu-10063.141.1.710.3~1/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2026-03-01 14:45:09,798 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2026-03-01 14:45:09,798 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/pinball/NapoleonDynamite/logs/2026-03-01-14-45-09-mpf-ANDREs-Mac-mini.local.log', 'prev_value': None, 'change': True}
+2026-03-01 14:45:09,798 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-03-01 14:45:09,964 : INFO : SwitchController : <<<<<<< 's_flipper_left_eos' active >>>>>>>
+2026-03-01 14:45:09,964 : INFO : SwitchController : <<<<<<< 's_flipper_right_lower_eos' active >>>>>>>
+2026-03-01 14:45:09,964 : INFO : SwitchController : <<<<<<< 's_trough_7' active >>>>>>>
+2026-03-01 14:45:09,965 : INFO : SwitchController : <<<<<<< 's_bumper_lower' active >>>>>>>
+2026-03-01 14:45:09,965 : INFO : SwitchController : <<<<<<< 's_bumper_upper' active >>>>>>>
+2026-03-01 14:45:09,965 : INFO : SwitchController : <<<<<<< 's_inlane_right_2' active >>>>>>>
+2026-03-01 14:45:09,965 : INFO : SwitchController : <<<<<<< 's_inlane_left' active >>>>>>>
+2026-03-01 14:45:09,997 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-03-01 14:45:09,997 : INFO : SwitchController : Found active switch: (37, [FAST Platform Interface]) <switch.s_flipper_left_eos>
+2026-03-01 14:45:09,998 : INFO : SwitchController : Found active switch: (32, [FAST Platform Interface]) <switch.s_flipper_right_lower_eos>
+2026-03-01 14:45:09,998 : INFO : SwitchController : Found active switch: (30, [FAST Platform Interface]) <switch.s_trough_7>
+2026-03-01 14:45:09,998 : INFO : SwitchController : Found active switch: (41, [FAST Platform Interface]) <switch.s_bumper_lower>
+2026-03-01 14:45:09,998 : INFO : SwitchController : Found active switch: (42, [FAST Platform Interface]) <switch.s_bumper_upper>
+2026-03-01 14:45:09,998 : INFO : SwitchController : Found active switch: (36, [FAST Platform Interface]) <switch.s_inlane_right_2>
+2026-03-01 14:45:09,998 : INFO : SwitchController : Found active switch: (39, [FAST Platform Interface]) <switch.s_inlane_left>
+2026-03-01 14:45:10,003 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-03-01 14:45:10,005 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-03-01 14:45:10,014 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2026-03-01 14:45:10,015 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2026-03-01 14:45:10,465 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2026-03-01 14:45:10,466 : INFO : ball_device.bd_trough : State: idle
+2026-03-01 14:45:10,467 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-77' coro=<BallDevice._initialize_async() done, defined at /Users/pinball/mpf/lib/python3.14/site-packages/mpf/devices/ball_device/ball_device.py:196> exception=ConfigFileError("Ball device 'bd_plunger' uses switch 's_plunger' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch.")>
+Traceback (most recent call last):
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/devices/ball_device/ball_device.py", line 198, in _initialize_async
+    await self.ball_count_handler.initialize()
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/devices/ball_device/ball_count_handler.py", line 92, in initialize
+    self.counter = counter_class(self.ball_device, self.ball_device.config.get("counter", {}))
+                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/devices/ball_device/switch_counter.py", line 81, in __init__
+    self.ball_device.raise_config_error(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        "Ball device '{}' uses switch '{}' which has a "
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            self.ball_device.name, switch.name, self.ball_device.config['captures_from'].name,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            self.ball_device.config['captures_from'].name), 13)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+        from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ball_device.bd_plunger: Ball device 'bd_plunger' uses switch 's_plunger' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-ball_device-13 (https://missionpinball.org/latest/logs)
+2026-03-01 14:45:10,484 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-03-01 14:45:10,487 : INFO : Machine : Starting the main run loop with active modes: []
+2026-03-01 14:45:10,487 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-03-01 14:45:10,487 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-03-01 14:45:10,488 : INFO : Machine : Shutting down...
+2026-03-01 14:45:10,488 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-03-01 14:45:10,488 : ERROR : root : no running event loop
+Traceback (most recent call last):
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/commands/game.py", line 229, in __init__
+    self.machine.run()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 706, in run
+    self._run_loop()
+    ~~~~~~~~~~~~~~^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 806, in _run_loop
+    self._crash_shutdown()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 751, in _crash_shutdown
+    self._do_stop()
+    ~~~~~~~~~~~~~^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 741, in _do_stop
+    self.events.process_event_queue()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/events.py", line 842, in process_event_queue
+    self._process_queue_event(event=event[0],
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+                              callback=event[2],
+                              ^^^^^^^^^^^^^^^^^^
+                              **event[3])
+                              ^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/events.py", line 783, in _process_queue_event
+    task = asyncio.create_task(self._run_handlers_sequential(event, callback, kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py", line 394, in create_task
+    loop = events.get_running_loop()
+RuntimeError: no running event loop

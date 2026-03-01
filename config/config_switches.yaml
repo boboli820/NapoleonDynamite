@@ -40,10 +40,12 @@ switches:
   s_trough_7:
     number: 3208_middle-6
     tags: trough_jam
-  s_plunger_lane:
-    number: 3208_middle-7
+ 
 
   #playfield switches
+  s_plunger:
+    number: 3208_middle-7
+    tags: plunger
   s_sling_left:
     number: 3208_middle-16
     tags: left_sling
