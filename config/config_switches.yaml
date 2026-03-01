@@ -43,28 +43,24 @@ switches:
   #playfield switches
   s_plunger:
     number: 3208_middle-7
-    tags: plunger
   s_sling_left:
     number: 3208_middle-16
-    tags: left_sling
+    tags: playfield_active
   s_sling_right:
     number: 3208_middle-9
-    tags: right_sling
+    tags: playfield_active
   s_bumper_lower:
     number: 3208_middle-17
-    tags: lower_bumper
   s_bumper_upper:
     number: 3208_middle-18
-    tags: upper_bumper
   s_inlane_right_1:
     number: 3208_middle-11
-    tags: right_lane_1, playfield_active
+    tags: playfield_active
   s_inlane_right_2:
     number: 3208_middle-12
-    tags: right_lane_2, playfield_active
+    tags: playfield_active
   s_inlane_left:
     number: 3208_middle-15
-    tags: left_lane, playfield_active
+    tags: playfield_active
   s_scoop_tina:
     number: 3208_middle-19
-    tags: tina_scoop
