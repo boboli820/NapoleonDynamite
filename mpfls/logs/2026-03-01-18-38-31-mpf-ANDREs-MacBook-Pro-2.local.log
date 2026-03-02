@@ -1,0 +1,5 @@
+2026-03-01 18:38:31,527 : INFO : root : Loading config.
+2026-03-01 18:38:31,529 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-01 18:38:31,529 : INFO : ConfigProcessor : Loading config from file /Users/andre/mpf/lib/python3.13/site-packages/mpf/mpfconfig.yaml.
+2026-03-01 18:38:31,551 : INFO : ConfigProcessor : Loading config: /Users/andre/mpf/lib/python3.13/site-packages/mpf/mpfconfig.yaml
+2026-03-01 18:38:31,552 : INFO : ConfigProcessor : Loading config from file /Users/andre/mpf/mpf-ls-dev/mpfls/config/config.yaml.

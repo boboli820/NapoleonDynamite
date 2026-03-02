@@ -6,16 +6,25 @@ mode:
   priority: 200
 
 shots:
-  bumper_lower:
-    switch: s_bumper_lower
-  bumper_upper:
-    switch: s_bumper_upper
+  sling_left:
+    switches: s_sling_left
+  sling_right:
+    switches: s_sling_right
+#  bumper_lower:
+#    switch: s_bumper_lower
+#  bumper_upper:
+#    switch: s_bumper_upper
 
 shot_groups:
-  bumpers:
-    shots: bumper_lower, bumper_upper
+  slings:
+    shots: sling_left, sling_right
+#  bumpers:
+#    shots: bumper_lower, bumper_upper
 
 variable_player:
-  bumpers_hit:
+  slings_hit:
     initial_value: 0
-    score: 1_000
+    score: 100
+#  bumpers_hit:
+#    initial_value: 0
+#    score: 1_000
