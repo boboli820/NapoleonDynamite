@@ -45,10 +45,12 @@ switches:
     number: 3208_middle-5
   s_trough_7:
     number: 3208_middle-6 
-  s_plunger:
-    number: 3208_middle-7
+ 
 
   #playfield switches
+  s_plunger:
+    number: 3208_middle-7
+ 
   s_sling_left:
     number: 3208_middle-16
     tags: sling_left
