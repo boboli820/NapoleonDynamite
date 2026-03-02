@@ -1,19 +1,19 @@
 events:
   game_ended: 0
-  game_started: 33
+  game_started: 34
 missing_switches:
-  s_bumper_lower: 2
-  s_bumper_upper: 2
-  s_flipper_left_eos: 7
-  s_flipper_right_lower_eos: 15
-  s_flipper_right_upper_eos: 19
-  s_inlane_left: 2
-  s_inlane_right_1: 2
-  s_inlane_right_2: 2
+  s_bumper_lower: 3
+  s_bumper_upper: 3
+  s_flipper_left_eos: 8
+  s_flipper_right_lower_eos: 16
+  s_flipper_right_upper_eos: 20
+  s_inlane_left: 3
+  s_inlane_right_1: 3
+  s_inlane_right_2: 3
   s_scoop_tina: 3
-  s_sling_left: 2
-  s_sling_right: 2
-  s_start: 5
+  s_sling_left: 3
+  s_sling_right: 3
+  s_start: 6
 player:
   score:
     average: 0
@@ -28,25 +28,25 @@ shots:
 switches:
   s_bumper_lower: 79
   s_bumper_upper: 82
-  s_flipper_left: 452
+  s_flipper_left: 457
   s_flipper_left_eos: 181
-  s_flipper_right_lower: 453
+  s_flipper_right_lower: 458
   s_flipper_right_lower_eos: 161
-  s_flipper_right_upper: 469
+  s_flipper_right_upper: 474
   s_flipper_right_upper_eos: 43
   s_inlane_left: 30
   s_inlane_right_1: 20
   s_inlane_right_2: 4
-  s_plunger: 13
+  s_plunger: 25
   s_plunger_lane: 29
   s_scoop_tina: 11
   s_sling_left: 195
   s_sling_right: 32
   s_start: 31
-  s_trough_1: 128
-  s_trough_2: 116
-  s_trough_3: 142
-  s_trough_4: 197
-  s_trough_5: 215
-  s_trough_6: 211
-  s_trough_7: 175
+  s_trough_1: 129
+  s_trough_2: 117
+  s_trough_3: 143
+  s_trough_4: 198
+  s_trough_5: 216
+  s_trough_6: 212
+  s_trough_7: 176
