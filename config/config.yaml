@@ -86,12 +86,12 @@ flippers:
     enable_events: mode_base_started #machine_reset_phase_3
 
 
-virtual_platform_start_active_switches:
-  - s_trough_1
-  - s_trough_2
-  - s_trough_3
-  - s_trough_4
-  - s_trough_5
-  - s_trough_6
-  - s_trough_7
+#virtual_platform_start_active_switches:
+#  - s_trough_1
+#  - s_trough_2
+#  - s_trough_3
+#  - s_trough_4
+#  - s_trough_5
+#  - s_trough_6
+#  - s_trough_7
   
