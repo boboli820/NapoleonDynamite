@@ -54,7 +54,7 @@ modes:
   - attract
   - base
   - bumpers
-  - hurryup
+#  - hurryup
 
 playfields:
   playfield:

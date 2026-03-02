@@ -33,18 +33,25 @@ switches:
   #Trough Switches
   s_trough_1:
     number: 3208_middle-0
+    type: NC
   s_trough_2: 
     number: 3208_middle-1
+    type: NC
   s_trough_3:
     number: 3208_middle-2
+    type: NC
   s_trough_4:
     number: 3208_middle-3
+    type: NC
   s_trough_5:
     number: 3208_middle-4
+    type: NC
   s_trough_6:
     number: 3208_middle-5
+    type: NC
   s_trough_7:
-    number: 3208_middle-6 
+    number: 3208_middle-6
+    type: NC
  
 
   #playfield switches
