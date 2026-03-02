@@ -13,4 +13,5 @@ ball_devices:
   bd_plunger:
     ball_switches: s_plunger
     mechanical_eject: true 
+    eject_timeouts: 5s
     

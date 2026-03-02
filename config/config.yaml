@@ -53,13 +53,17 @@ config:
 modes:
   - attract
   - base
-#  - bumpers
-#  - hurryup
+  - bumpers
+  - hurryup
 
 playfields:
   playfield:
     default_source_device: bd_plunger
     tags: default
+
+machine:
+  balls_installed: 6
+  min_balls: 6
 
 flippers:
   left_flipper:
