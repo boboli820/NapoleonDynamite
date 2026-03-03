@@ -6,28 +6,28 @@ mode:
   priority: 200
 
 shots:
-  sling_left:
+  shot_sling_left:
     switches: s_sling_left
-  sling_right:
+  shot_sling_right:
     switches: s_sling_right
-  bumper_lower:
+  shot_bumper_lower:
     switches: s_bumper_lower
-  bumper_upper:
+  shot_bumper_upper:
     switches: s_bumper_upper
-  inlane_left:
+  shot_inlane_left:
     switches: s_inlane_left
-  inlane_right_1:
+  shot_inlane_right_1:
     switches: s_inlane_right_1
-  inlane_right_2:
+  shot_inlane_right_2:
     switches: s_inlane_right_2
 
 shot_groups:
   slings:
-    shots: sling_left, sling_right
+    shots: shot_sling_left, shot_sling_right
   bumpers:
-    shots: bumper_lower, bumper_upper
+    shots: shot_bumper_lower, shot_bumper_upper
   inlanes:
-    shots: inlane_left, inlane_right_1, inlane_right_2
+    shots: shot_inlane_left, shot_inlane_right_1, shot_inlane_right_2
 
 variable_player:
   slings_hit:

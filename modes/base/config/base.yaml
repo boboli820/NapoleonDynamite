@@ -1,6 +1,6 @@
 #config_version=6
 
-# Base mode that starts at the beginning of each ball
+# This is the Base Mode that starts at the beginning of each ball
 # and stops at the end of each ball.
 
 mode:
@@ -15,9 +15,11 @@ event_player:
   - stop_mode_bumpers
 #  left_lane_hit: start_mode_hurryup
 
+slide_player:
+  mode_base_started: base_slide
+
 #shots:
 #  left_lane:
 #    switches: s_inlane_left
 
-slide_player:
-  mode_base_started: base_slide
+

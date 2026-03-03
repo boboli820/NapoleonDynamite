@@ -1,7 +1,11 @@
 #config_version=6
 
 switches:
-  # Cabinet Switches
+
+  ################################ 
+  #       Cabinet Switches
+  ################################
+
   s_flipper_left:
     number: cab_board-8
     debounce: quick
@@ -30,7 +34,10 @@ switches:
     number: cab_board-0
     tags: start
 
-  #Trough Switches
+  ################################ 
+  #       Trough Switches
+  ################################  
+
   s_trough_1:
     number: 3208_middle-0
     type: NC
@@ -55,8 +62,10 @@ switches:
   s_plunger:
     number: 3208_middle-7
 
-
-  #playfield switches
+  ################################ 
+  #       Playfield Switches
+  ################################
+  
   s_sling_left:
     number: 3208_middle-16
     tags: sling_left

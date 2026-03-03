@@ -1,13 +1,15 @@
 #config_version=6
 
-## MPF Main Machine Config File
+###############################################################
+#
+# MPF Main Machine Config File
 #
 # This file defines your system-wide properties like switches,
 # drivers, ball devices, hardware platforms, and more. You can
 # include everything here, or create sub-config files to be
 # imported and merged with this one.
 #
-
+###############################################################
 
 hardware:
   platform: fast
@@ -94,4 +96,3 @@ flippers:
 #  - s_trough_5
 #  - s_trough_6
 #  - s_trough_7
-  
