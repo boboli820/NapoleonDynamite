@@ -52,12 +52,11 @@ switches:
   s_trough_7:
     number: 3208_middle-6
     type: NC
- 
-
-  #playfield switches
   s_plunger:
     number: 3208_middle-7
- 
+
+
+  #playfield switches
   s_sling_left:
     number: 3208_middle-16
     tags: sling_left
@@ -68,21 +67,23 @@ switches:
 
   s_bumper_lower:
     number: 3208_middle-17
+    tags: bumper_lower, playfield_active
 
   s_bumper_upper:
     number: 3208_middle-18
+    tags: bumper_upper, playfield_active
 
   s_inlane_right_1:
     number: 3208_middle-11
-    tags: playfield_active
+    tags: inlane_right_1, playfield_active
 
   s_inlane_right_2:
     number: 3208_middle-12
-    tags: playfield_active
+    tags: inlane_right_2, playfield_active
 
   s_inlane_left:
     number: 3208_middle-15
-    tags: playfield_active
+    tags: inlane_left, playfield_active
 
 #  s_scoop_tina:
 #    number: 3208_middle-19
