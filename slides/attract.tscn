@@ -27,9 +27,8 @@ carousel_name = "attract"
 metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
 
 [node name="logo" type="Sprite2D" parent="MPFCarousel" unique_id=1778148701]
-visible = false
-position = Vector2(640.99994, 517.5)
-scale = Vector2(0.52010715, 0.534738)
+position = Vector2(643, 471.00003)
+scale = Vector2(0.5218945, 0.48177674)
 texture = ExtResource("5_twbla")
 
 [node name="credits" type="Label" parent="MPFCarousel" unique_id=2040605493]

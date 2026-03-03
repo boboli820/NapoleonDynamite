@@ -15,6 +15,11 @@ event_player:
   - stop_mode_bumpers
 #  left_lane_hit: start_mode_hurryup
 
+sound_player:
+  mode_base_started:
+    heres_rico:
+      bus: music
+
 slide_player:
   mode_base_started: base_slide
 
