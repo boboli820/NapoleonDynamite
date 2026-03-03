@@ -1,0 +1,111 @@
+2026-03-03 16:17:27,402 : INFO : root : Loading config.
+2026-03-03 16:17:27,746 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/config_spec.mpf_cache
+2026-03-03 16:17:27,747 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-03 16:17:27,747 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/954ddabc670342668a09b03520c7eb79.mpf_cache
+2026-03-03 16:17:27,808 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-03 16:17:27,809 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/767518d75df2d86a4d35c1fb94c70abd.mpf_cache
+2026-03-03 16:17:27,809 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-03 16:17:27,810 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/73548cb541cc3751ae5711fe0817282a.mpf_cache
+2026-03-03 16:17:27,810 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/57f006170cd447d443f971cd8b826597.mpf_cache
+2026-03-03 16:17:27,811 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-03-03 16:17:27,811 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-03-03-16-17-27-mpf-ANDREs-Mac-mini.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/Users/pinball/NapoleonDynamite/logs/2026-03-03-16-17-27-mpf-ANDREs-Mac-mini.local.log'}
+2026-03-03 16:17:27,811 : INFO : Machine : MPF path: /Users/pinball/mpf/lib/python3.14/site-packages/mpf
+2026-03-03 16:17:27,811 : INFO : Machine : Machine path: /Users/pinball/NapoleonDynamite
+2026-03-03 16:17:27,811 : INFO : Machine : Platform: darwin
+2026-03-03 16:17:27,811 : INFO : Machine : Python executable location: /Users/pinball/mpf/bin/python3.14
+2026-03-03 16:17:27,811 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-03-03 16:17:27,812 : INFO : Machine : Initializing MPF...
+2026-03-03 16:17:27,898 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2026-03-03 16:17:27,922 : INFO : FAST : Detected NET on port /dev/cu.usbmodem14101
+2026-03-03 16:17:28,926 : INFO : FAST : Detected EXP on port /dev/cu.usbmodem14103
+2026-03-03 16:17:29,030 : INFO : FAST [NET] : Trying to connect to /dev/cu.usbmodem14101 at 921600bps
+2026-03-03 16:17:29,035 : INFO : FAST [NET] : Connected to /dev/cu.usbmodem14101 at 921600bps
+2026-03-03 16:17:29,037 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-03-03 16:17:29,039 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-03-03 16:17:29,040 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-03-03 16:17:29,041 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-03-03 16:17:29,043 : INFO : FAST [EXP] : Trying to connect to /dev/cu.usbmodem14103 at 921600bps
+2026-03-03 16:17:29,047 : INFO : FAST [EXP] : Connected to /dev/cu.usbmodem14103 at 921600bps
+2026-03-03 16:17:29,049 : INFO : FAST [EXP] : Verifying hardware for EXP "neuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.34", board address 48
+2026-03-03 16:17:29,050 : INFO : FAST [EXP] : Verifying hardware for EXP "neuron" (FP-EXP-2000, @48) with ID string "LED FP-BRK-0001  0.8", board address 480
+2026-03-03 16:17:29,051 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-03-03 16:17:29,073 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-03-03 16:17:29,074 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 3050, 'prev_value': None, 'change': True}
+2026-03-03 16:17:29,074 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-03-03 16:17:29,074 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-03-03 16:17:29,074 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.14.3', 'prev_value': None, 'change': True}
+2026-03-03 16:17:29,094 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.8.4-x86_64-i386-64bit-Mach-O', 'prev_value': None, 'change': True}
+2026-03-03 16:17:29,094 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-03-03 16:17:29,094 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.6.0', 'prev_value': None, 'change': True}
+2026-03-03 16:17:29,094 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.6.0: Mon Jan 19 22:02:22 PST 2026; root:xnu-10063.141.1.710.3~1/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2026-03-03 16:17:29,094 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2026-03-03 16:17:29,094 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/pinball/NapoleonDynamite/logs/2026-03-03-16-17-27-mpf-ANDREs-Mac-mini.local.log', 'prev_value': None, 'change': True}
+2026-03-03 16:17:29,095 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-03-03 16:17:29,311 : ERROR : asyncio : Exception in callback Util.raise_exceptions() at /Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/utility_functions.py:789
+handle: <Handle Util.raise_exceptions() at /Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/utility_functions.py:789>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/utility_functions.py", line 797, in raise_exceptions
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/communicators/base.py", line 413, in _socket_reader
+    self.parse_incoming_raw_bytes(resp)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/communicators/base.py", line 373, in parse_incoming_raw_bytes
+    self._dispatch_incoming_msg(msg)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/communicators/base.py", line 382, in _dispatch_incoming_msg
+    self.message_processors[msg_header](msg[3:])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/communicators/net_neuron.py", line 333, in _process_switch_closed
+    self.machine.switch_controller.process_switch_by_num(state=1,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+                                                         num=int(msg, 16),
+                                                         ^^^^^^^^^^^^^^^^^
+                                                         platform=self.platform,
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^
+                                                         logical=True)
+                                                         ^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/switch_controller.py", line 251, in process_switch_by_num
+    raise AssertionError("Got early switch change for switch {} to state {}. platform: {}".format(
+        num, state, platform))
+AssertionError: Got early switch change for switch 41 to state 1. platform: [FAST Platform Interface]
+2026-03-03 16:17:29,316 : INFO : Machine : Starting the main run loop with active modes: []
+2026-03-03 16:17:29,317 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-03-03 16:17:29,317 : INFO : Machine : Shutting down...
+2026-03-03 16:17:29,317 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-03-03 16:17:30,424 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/utility_functions.py", line 797, in raise_exceptions
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/communicators/base.py", line 413, in _socket_reader
+    self.parse_incoming_raw_bytes(resp)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/communicators/base.py", line 373, in parse_incoming_raw_bytes
+    self._dispatch_incoming_msg(msg)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/communicators/base.py", line 382, in _dispatch_incoming_msg
+    self.message_processors[msg_header](msg[3:])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/platforms/fast/communicators/net_neuron.py", line 333, in _process_switch_closed
+    self.machine.switch_controller.process_switch_by_num(state=1,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+                                                         num=int(msg, 16),
+                                                         ^^^^^^^^^^^^^^^^^
+                                                         platform=self.platform,
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^
+                                                         logical=True)
+                                                         ^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/switch_controller.py", line 251, in process_switch_by_num
+    raise AssertionError("Got early switch change for switch {} to state {}. platform: {}".format(
+        num, state, platform))
+AssertionError: Got early switch change for switch 41 to state 1. platform: [FAST Platform Interface]
+2026-03-03 16:17:30,427 : INFO : root : MPF run loop ended.
