@@ -64,8 +64,8 @@ playfields:
     tags: default
 
 machine:
-  balls_installed: 6
-  min_balls: 6
+  balls_installed: 1
+  min_balls: 1
 
 flippers:
   left_flipper:
@@ -78,13 +78,13 @@ flippers:
     main_coil: c_flipper_right_lower_main
     hold_coil: c_flipper_right_lower_hold
     activation_switch: s_flipper_right_lower
-    eos_switch: s_flipper_right_lower_eos
+#    eos_switch: s_flipper_right_lower_eos
     enable_events: mode_base_started #machine_reset_phase_3
   right_flipper_upper:
     main_coil: c_flipper_upper_main
     hold_coil: c_flipper_upper_hold
     activation_switch: s_flipper_right_upper
-    eos_switch: s_flipper_right_upper_eos
+ #   eos_switch: s_flipper_right_upper_eos
     enable_events: mode_base_started #machine_reset_phase_3
 
 machine_vars:
@@ -94,11 +94,11 @@ machine_vars:
     persist: true         # If false, the volume will reset to default
                           # each time the machine boots up
                           
-#virtual_platform_start_active_switches:
-#  - s_trough_1
-#  - s_trough_2
-#  - s_trough_3
-#  - s_trough_4
-#  - s_trough_5
-#  - s_trough_6
-#  - s_trough_7
+virtual_platform_start_active_switches:
+  - s_trough_1
+  - s_trough_2
+  - s_trough_3
+  - s_trough_4
+  - s_trough_5
+  - s_trough_6
+  - s_trough_7

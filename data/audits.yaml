@@ -1,47 +1,54 @@
 events:
-  game_ended: 5
-  game_started: 8
+  game_ended: 14
+  game_started: 28
 missing_switches:
-  s_bumper_lower: 8
-  s_bumper_upper: 3
-  s_inlane_left: 8
-  s_inlane_right_2: 8
-  s_sling_left: 1
-  s_sling_right: 1
+  s_bumper_lower: 28
+  s_bumper_upper: 23
+  s_flipper_right_lower_eos: 3
+  s_start: 2
 player:
   score:
-    average: 615
+    average: 12339
     top:
+    - 123050
+    - 15710
+    - 11130
+    - 10070
+    - 10020
+    - 7390
+    - 3050
     - 1700
     - 1600
-    - 400
-    - 0
-    - 0
-    - 0
-    total: 6
+    - 1000
+    total: 15
 shots:
+  shot_inlane_left: 34
+  shot_inlane_right_1: 967
+  shot_inlane_right_2: 20
+  shot_sling_left: 571
+  shot_sling_right: 59
   sling_left: 21
   sling_right: 28
 switches:
   s_bumper_lower: 0
   s_bumper_upper: 6
-  s_flipper_left: 215
-  s_flipper_left_eos: 190
-  s_flipper_right_lower: 439
-  s_flipper_right_lower_eos: 321
-  s_flipper_right_upper: 280
-  s_flipper_right_upper_eos: 140
-  s_inlane_left: 0
-  s_inlane_right_1: 331
-  s_inlane_right_2: 0
-  s_plunger: 34
-  s_sling_left: 21
-  s_sling_right: 28
-  s_start: 5
-  s_trough_1: 23
-  s_trough_2: 33
-  s_trough_3: 38
-  s_trough_4: 37
-  s_trough_5: 40
-  s_trough_6: 45
-  s_trough_7: 26
+  s_flipper_left: 670
+  s_flipper_left_eos: 564
+  s_flipper_right_lower: 1391
+  s_flipper_right_lower_eos: 728
+  s_flipper_right_upper: 1250
+  s_flipper_right_upper_eos: 837
+  s_inlane_left: 34
+  s_inlane_right_1: 1299
+  s_inlane_right_2: 20
+  s_plunger: 92
+  s_sling_left: 594
+  s_sling_right: 87
+  s_start: 9
+  s_trough_1: 76
+  s_trough_2: 86
+  s_trough_3: 96
+  s_trough_4: 105
+  s_trough_5: 112
+  s_trough_6: 108
+  s_trough_7: 84

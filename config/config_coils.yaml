@@ -21,7 +21,7 @@ coils:
 
   c_flipper_left_main:
     number: 3208_middle-3
-    default_pulse_ms: 30
+    default_pulse_ms: 28
 
   c_flipper_right_lower_hold:
     number: 3208_middle-4
@@ -29,11 +29,11 @@ coils:
 
   c_flipper_right_lower_main:
     number: 3208_middle-5
-    default_pulse_ms: 30
+    default_pulse_ms: 28
 
   c_flipper_upper_main:
     number: 0804_right-0
-    default_pulse_ms: 20
+    default_pulse_ms: 25
 
   c_flipper_upper_hold:
     number: 0804_right-1

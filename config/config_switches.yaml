@@ -19,16 +19,16 @@ switches:
     debounce: quick
     tags: right_flipper_lower
 
-  s_flipper_right_lower_eos:
-    number: 3208_middle-8
+  #s_flipper_right_lower_eos:
+  #  number: 3208_middle-8
 
   s_flipper_right_upper:
     number: cab_board-17
     debounce: quick
     tags: right_flipper_upper
 
-  s_flipper_right_upper_eos:
-    number: 3208_middle-20
+  #s_flipper_right_upper_eos:
+  #  number: 3208_middle-20
 
   s_start:
     number: cab_board-0
