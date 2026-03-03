@@ -87,7 +87,13 @@ flippers:
     eos_switch: s_flipper_right_upper_eos
     enable_events: mode_base_started #machine_reset_phase_3
 
-
+machine_vars:
+  master_volume:
+    initial_value: 1.0   # Set this to any value you want
+    value_type: float
+    persist: true         # If false, the volume will reset to default
+                          # each time the machine boots up
+                          
 #virtual_platform_start_active_switches:
 #  - s_trough_1
 #  - s_trough_2
