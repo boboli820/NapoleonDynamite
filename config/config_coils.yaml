@@ -45,16 +45,17 @@ coils:
   c_sling_right:
     number: 3208_middle-7
 
-#  c_bumper_lower:
-#    number: 
-#    default_pulse_ms: 20
+  c_bumper_lower:
+    number: 0804_left_1
+    default_pulse_ms: 20
 
-#  c_bumper_upper:
-#    number:
-#    default_pulse_ms: 20
+  c_bumper_upper:
+    number: 0804_left_0
+    default_pulse_ms: 20
 
-#  c_scoop_tina:
-#    number: 0804_right-2
+  c_scoop_tina:
+    number: 0804_right-2
+    default_pulse_ms: 20
 
 #################################
 # AutoFire Coils Config Section #
@@ -66,9 +67,13 @@ autofire_coils:
   right_sling:
     coil: c_sling_right
     switch: s_sling_right
-#  bumper_lower:
-#    coil: c_bumper_lower
-#    switch: s_bumper_lower
-#  bumper_upper:
-#    coil: c_bumper_upper  
-#    switch: s_bumper_upper  
+  bumper_lower:
+    coil: c_bumper_lower
+    switch: s_bumper_lower
+  bumper_upper:
+    coil: c_bumper_upper  
+    switch: s_bumper_upper
+  scoop_tina:
+    coil: c_scoop_tina
+    switch: s_scoop_tina
+    

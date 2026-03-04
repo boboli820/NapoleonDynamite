@@ -20,6 +20,8 @@ shots:
     switches: s_inlane_right_1
   shot_inlane_right_2:
     switches: s_inlane_right_2
+  shot_scoop:
+    switches: s_scoop_tina
 
 shot_groups:
   slings:
@@ -28,6 +30,7 @@ shot_groups:
     shots: shot_bumper_lower, shot_bumper_upper
   inlanes:
     shots: shot_inlane_left, shot_inlane_right_1, shot_inlane_right_2
+
 
 variable_player:
   slings_hit:
@@ -39,3 +42,6 @@ variable_player:
   inlanes_hit:
     initial_value: 0
     score: 10
+  shot_scoop_tina_hit:
+    initial_value: 0
+    score: 20_000

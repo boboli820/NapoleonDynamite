@@ -94,5 +94,6 @@ switches:
     number: 3208_middle-15
     tags: inlane_left, playfield_active
 
-#  s_scoop_tina:
-#    number: 3208_middle-19
+  s_scoop_tina:
+    number: 3208_middle-19
+    tags: scoop
