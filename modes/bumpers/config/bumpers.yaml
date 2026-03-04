@@ -31,6 +31,14 @@ shot_groups:
   inlanes:
     shots: shot_inlane_left, shot_inlane_right_1, shot_inlane_right_2
 
+sound_player:
+  slings:
+    gosh:
+      bus: music
+      action: play
+      loops: 1
+
+ 
 
 variable_player:
   slings_hit:
