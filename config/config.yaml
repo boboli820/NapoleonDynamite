@@ -27,9 +27,9 @@ fast:
       0804_right:
         model: FP-I/O-0804
         order: 3
-      #0804_left:
-      #  model: FP-I/O-0804
-      #  order: 4
+      0804_left:
+        model: FP-I/O-0804
+        order: 4
     port: auto
     baud: 921600
     debug: false
