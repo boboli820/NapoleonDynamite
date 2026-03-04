@@ -46,11 +46,11 @@ coils:
     number: 3208_middle-7
 
   c_bumper_lower:
-    number: 0804_left_1
+    number: 0804_left-1
     default_pulse_ms: 20
 
   c_bumper_upper:
-    number: 0804_left_0
+    number: 0804_left-0
     default_pulse_ms: 20
 
   c_scoop_tina:

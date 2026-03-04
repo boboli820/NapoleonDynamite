@@ -19,7 +19,6 @@ sound_player:
   mode_base_started:
     heres_rico:
       bus: music
-      loop: -1
 
 slide_player:
   mode_base_started: base_slide

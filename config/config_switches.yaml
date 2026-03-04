@@ -76,11 +76,11 @@ switches:
 
   s_bumper_lower:
     number: 3208_middle-17
-    tags: bumper_lower, playfield_active
+    tags: bumper_lower
 
   s_bumper_upper:
     number: 3208_middle-18
-    tags: bumper_upper, playfield_active
+    tags: bumper_upper
 
   s_inlane_right_1:
     number: 3208_middle-11

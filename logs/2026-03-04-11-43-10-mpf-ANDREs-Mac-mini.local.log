@@ -1,0 +1,161 @@
+2026-03-04 11:43:10,523 : INFO : root : Loading config.
+2026-03-04 11:43:10,885 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/config_spec.mpf_cache
+2026-03-04 11:43:10,886 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-04 11:43:10,886 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/954ddabc670342668a09b03520c7eb79.mpf_cache
+2026-03-04 11:43:10,950 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-04 11:43:10,951 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/767518d75df2d86a4d35c1fb94c70abd.mpf_cache
+2026-03-04 11:43:10,951 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/64218df07edc412f774c53ffb33c812d.mpf_cache
+2026-03-04 11:43:10,951 : WARNING : ConfigProcessor : Config file in cache changed: /Users/pinball/NapoleonDynamite/modes/base/config/base.yaml
+2026-03-04 11:43:10,951 : INFO : ConfigProcessor : Loading config from file /Users/pinball/NapoleonDynamite/modes/base/config/base.yaml.
+2026-03-04 11:43:10,956 : INFO : ConfigProcessor : Loading config: /Users/pinball/NapoleonDynamite/modes/base/config/base.yaml
+2026-03-04 11:43:10,956 : INFO : ConfigProcessor : Config file cache created: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/73548cb541cc3751ae5711fe0817282a.mpf_cache
+2026-03-04 11:43:10,957 : INFO : ConfigProcessor : Loading config from cache: /var/folders/1s/015t8n3n70gcr2ch4xflj4yr0000gn/T/57f006170cd447d443f971cd8b826597.mpf_cache
+2026-03-04 11:43:10,957 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-03-04 11:43:10,957 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-03-04-11-43-10-mpf-ANDREs-Mac-mini.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/Users/pinball/NapoleonDynamite/logs/2026-03-04-11-43-10-mpf-ANDREs-Mac-mini.local.log'}
+2026-03-04 11:43:10,957 : INFO : Machine : MPF path: /Users/pinball/mpf/lib/python3.14/site-packages/mpf
+2026-03-04 11:43:10,958 : INFO : Machine : Machine path: /Users/pinball/NapoleonDynamite
+2026-03-04 11:43:10,958 : INFO : Machine : Platform: darwin
+2026-03-04 11:43:10,958 : INFO : Machine : Python executable location: /Users/pinball/mpf/bin/python3.14
+2026-03-04 11:43:10,958 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-03-04 11:43:10,959 : INFO : Machine : Initializing MPF...
+2026-03-04 11:43:11,076 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2026-03-04 11:43:11,099 : INFO : FAST : Detected NET on port /dev/cu.usbmodem14101
+2026-03-04 11:43:11,107 : INFO : FAST : Detected EXP on port /dev/cu.usbmodem14103
+2026-03-04 11:43:11,211 : INFO : FAST [NET] : Trying to connect to /dev/cu.usbmodem14101 at 921600bps
+2026-03-04 11:43:11,216 : INFO : FAST [NET] : Connected to /dev/cu.usbmodem14101 at 921600bps
+2026-03-04 11:43:11,219 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-03-04 11:43:11,221 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-03-04 11:43:11,223 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-03-04 11:43:11,224 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-03-04 11:43:11,226 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-03-04 11:43:11,227 : INFO : FAST [EXP] : Trying to connect to /dev/cu.usbmodem14103 at 921600bps
+2026-03-04 11:43:11,232 : INFO : FAST [EXP] : Connected to /dev/cu.usbmodem14103 at 921600bps
+2026-03-04 11:43:11,234 : INFO : FAST [EXP] : Verifying hardware for EXP "neuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.34", board address 48
+2026-03-04 11:43:11,235 : INFO : FAST [EXP] : Verifying hardware for EXP "neuron" (FP-EXP-2000, @48) with ID string "LED FP-BRK-0001  0.8", board address 480
+2026-03-04 11:43:11,236 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-03-04 11:43:11,255 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-03-04 11:43:11,255 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 10070, 'prev_value': None, 'change': True}
+2026-03-04 11:43:11,255 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-03-04 11:43:11,255 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-03-04 11:43:11,256 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.14.3', 'prev_value': None, 'change': True}
+2026-03-04 11:43:11,281 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.8.4-x86_64-i386-64bit-Mach-O', 'prev_value': None, 'change': True}
+2026-03-04 11:43:11,281 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-03-04 11:43:11,282 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.6.0', 'prev_value': None, 'change': True}
+2026-03-04 11:43:11,282 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.6.0: Mon Jan 19 22:02:22 PST 2026; root:xnu-10063.141.1.710.3~1/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2026-03-04 11:43:11,282 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2026-03-04 11:43:11,282 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/pinball/NapoleonDynamite/logs/2026-03-04-11-43-10-mpf-ANDREs-Mac-mini.local.log', 'prev_value': None, 'change': True}
+2026-03-04 11:43:11,282 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-03-04 11:43:11,459 : INFO : SwitchController : <<<<<<< 's_flipper_left_eos' active >>>>>>>
+2026-03-04 11:43:11,459 : INFO : SwitchController : <<<<<<< 's_trough_1' active >>>>>>>
+2026-03-04 11:43:11,459 : INFO : SwitchController : <<<<<<< 's_bumper_lower' active >>>>>>>
+2026-03-04 11:43:11,459 : INFO : SwitchController : <<<<<<< 's_bumper_upper' active >>>>>>>
+2026-03-04 11:43:11,491 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-03-04 11:43:11,492 : INFO : SwitchController : Found active switch: (37, [FAST Platform Interface]) <switch.s_flipper_left_eos>
+2026-03-04 11:43:11,492 : INFO : SwitchController : Found active switch: (24, [FAST Platform Interface]) <switch.s_trough_1>
+2026-03-04 11:43:11,492 : INFO : SwitchController : Found active switch: (41, [FAST Platform Interface]) <switch.s_bumper_lower>
+2026-03-04 11:43:11,492 : INFO : SwitchController : Found active switch: (42, [FAST Platform Interface]) <switch.s_bumper_upper>
+2026-03-04 11:43:11,497 : ERROR : ConfigValidator : Your config contains a value for the setting "sound_player:loop", but this is not a valid setting name.
+2026-03-04 11:43:11,498 : ERROR : asyncio : Exception in callback EventManager._queue_task_done()
+handle: <Handle EventManager._queue_task_done()>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                mode_path=mode.path,
+                ^^^^^^^^^^^^^^^^^^^^
+                mode=mode,
+                ^^^^^^^^^^
+                root_config_dict=mode.config,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                **item.kwargs)
+                ^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/config_players/device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/config_players/device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/config_players/sound_player.py", line 24, in _validate_config_item
+    device_settings = self.machine.config_validator.validate_config(
+        'sound_player', device_settings)
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+                          'setting "' + path_string + '", but this is not a valid '
+                                                      'setting name.', 2, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player mode_base_started:sounds with settings {'heres_rico': {'bus': 'music', 'loop': True}} >> Your config contains a value for the setting "sound_player:loop", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/latest/logs)
+2026-03-04 11:43:11,503 : INFO : Machine : Starting the main run loop with active modes: []
+2026-03-04 11:43:11,503 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-03-04 11:43:11,517 : INFO : Machine : Shutting down...
+2026-03-04 11:43:11,517 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-03-04 11:43:12,624 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                mode_path=mode.path,
+                ^^^^^^^^^^^^^^^^^^^^
+                mode=mode,
+                ^^^^^^^^^^
+                root_config_dict=mode.config,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                **item.kwargs)
+                ^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/config_players/device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/config_players/device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/config_players/sound_player.py", line 24, in _validate_config_item
+    device_settings = self.machine.config_validator.validate_config(
+        'sound_player', device_settings)
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pinball/mpf/lib/python3.14/site-packages/mpf/core/config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+                          'setting "' + path_string + '", but this is not a valid '
+                                                      'setting name.', 2, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player mode_base_started:sounds with settings {'heres_rico': {'bus': 'music', 'loop': True}} >> Your config contains a value for the setting "sound_player:loop", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/latest/logs)
+2026-03-04 11:43:12,628 : INFO : root : MPF run loop ended.
