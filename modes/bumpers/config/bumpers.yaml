@@ -35,10 +35,14 @@ sound_player:
   slings_hit:
     gosh:
       bus: effects
+<<<<<<< HEAD
       action: play
       
 
  
+=======
+     
+>>>>>>> 71674caa0a664381c5e8947313a9230c35a363a3
 
 variable_player:
   slings_hit:
