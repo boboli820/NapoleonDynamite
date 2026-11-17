@@ -12,14 +12,28 @@ ends the motion after `turns_each_way` turns in either direction, which is the
 
 | File | What it is |
 |---|---|
-| `tetherball.scad` | The whole model. Change the parameters at the top (playfield thickness, turns, pitch, arm radius, pole height...). |
-| `export.sh` | Writes every printable part to `stl/` in print orientation. Pass overrides through, e.g. `./export.sh -D pf_thick=12.7 -D turns_each_way=3`. |
-| `check.sh` | Interference tests. Run it after changing any parameter. |
-| `stl/` | Generated output (git-ignored). |
+| `step/<part>.step` | **One STEP file per printed part**: true B-rep solids (cylinders, planes, cones, an exact helical thread), not meshes. Each one sits where it goes in the assembly at neutral, so importing them all lines them up. |
+| `step/tetherball_assembly.step` | Everything in one coloured file, including bought parts (pole tube, arm rod, 608 bearings, shaft collar, striker screws). |
+| `tetherball.py` | The source model, in [CadQuery](https://cadquery.readthedocs.io). All parameters are in the `Params` class at the top. |
+| `stl/` | Print-ready meshes in print orientation (generated, git-ignored). |
 
-Needs OpenSCAD 2025+ (manifold backend): `brew install --cask openscad@snapshot`.
+### Regenerating
 
-## What `check.sh` proves
+```bash
+python3.12 -m venv .venv && .venv/bin/pip install -r requirements.txt   # once
+.venv/bin/python tetherball.py export                                   # step/ + stl/
+.venv/bin/python tetherball.py check                                    # interference tests (~1 min)
+.venv/bin/python tetherball.py info --set pf_thick=12.7 --set turns_each_way=3
+```
+
+`--set name=value` overrides any parameter for `export`, `check` and `info`.
+`export` re-imports every STEP file it writes and fails unless the file comes back
+as one valid solid with the same volume. The studded ball is written without
+pcurves (parameter-space curves), because with them OCCT's writer corrupts its
+sphere face. pcurves are optional in STEP, and Fusion, SolidWorks and Onshape
+rebuild them on import.
+
+## What `check` proves
 
 * The nut follows the screw at any hub angle without colliding, and fails as
   expected when it is moved the wrong way (a sanity test).
@@ -50,8 +64,8 @@ bench rig.
 ## Hardware
 
 * 2× 608 bearings (fidget-spinner bearings, 8×22×7)
-* 8 mm OD stainless tube, ~6 mm ID, cut to the length `tetherball.scad` echoes (≈187 mm at defaults)
-* 5 mm steel rod for the arm, length echoed (32 mm at defaults). File a flat for the set screw
+* 8 mm OD stainless tube, ~6 mm ID, cut to the length `tetherball.py info` prints (≈187 mm at defaults)
+* 5 mm steel rod for the arm, length from `info` (32 mm at defaults). File a flat for the set screw
 * 1× 8 mm-bore shaft collar (≈16 OD × 9 wide)
 * PTFE Bowden tube, 4 mm OD / 2 mm ID, run through the pole
 * ~1.5 mm braided cord, plus a retractable ID-badge reel (light tension) below the pole
